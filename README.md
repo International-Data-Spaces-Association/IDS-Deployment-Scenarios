@@ -1,2 +1,6 @@
 # IDS-Deployment-Scenarios
-This is the repository where various IDS Deployment Scenarios from different industries and cases are listed. 
+This is the repository where IDS Deployment Scenarios from various domains and cases are listed. 
+
+## What is a deployment scenario? 
+
+## How to contribute with a deployment scenario?
