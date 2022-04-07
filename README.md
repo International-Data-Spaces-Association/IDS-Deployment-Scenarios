@@ -3,7 +3,7 @@ This is the repository where IDS Deployment Scenarios from various domains and c
 
 :rocket: [Minimum Viable Data Space](https://github.com/International-Data-Spaces-Association/idsa/tree/main/MVDS) is also included as a deployment scenario, defined by IDSA Head Office. It is also a great place to start creating a deployment scenario.
 
-## What is a IDS deployment scenario? 
+## What is a IDS Deployment Scenario? 
 A deployment scenario can be considered as any implementation made with IDS-compliant components:
 - that allows sovereign data sharing (as defined by IDSA)
 - is built with the intention to resolve a problem, by means of secure and sovereign data sharing
