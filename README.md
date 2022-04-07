@@ -9,10 +9,15 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 - is built with the intention to resolve a problem, by means of secure and sovereign data sharing
 - is adequately documented to enable others to follow the same path
 
+An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
+![IDS Deployment Scenarios Process](images/ids-deployment-scenarios-process.png)
+
 ## How to contribute with (or to) a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
 :triangular_flag_on_post: Either by suggesting to list a deployment scenario here by using [this form](........). 
 
 :bulb: Or by expressing your idea, suggest something new (or asking a question) on a specific deployment scenario by creating an issue, by checking the contribution rules on [CONTRIBUTING.md](CONTRIBUTING.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+
 
