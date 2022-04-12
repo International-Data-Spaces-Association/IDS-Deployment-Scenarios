@@ -15,7 +15,7 @@ An envisaged flow for running an experiment with a IDS Deployment Scenario can b
 ## How to contribute with (or to) a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
-:triangular_flag_on_post: Either by suggesting to list a deployment scenario here by using [this form](........). 
+:triangular_flag_on_post: Either by suggesting to list a deployment scenario here by using [this form](https://forms.office.com/r/0Ep0C420Nk). 
 
 :bulb: Or by expressing your idea, suggest something new (or asking a question) on a specific deployment scenario by creating an issue, by checking the contribution rules on [CONTRIBUTING.md](CONTRIBUTING.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
