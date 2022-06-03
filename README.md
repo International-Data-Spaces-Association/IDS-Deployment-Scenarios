@@ -13,12 +13,16 @@ An envisaged flow for running an experiment with a IDS Deployment Scenario can b
 
 ![IDS Deployment Scenarios Process](images/ids-deployment-scenarios-process.png)
 
+## What are the existing IDS Deployment Scenario Examples?
+First examples of IDS Deployment Scenarios are currently under preparation and will be available soon. 
+
 ## How to contribute with (or to) a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
 :triangular_flag_on_post: Either by suggesting to list a deployment scenario here by using [the Data Space Radar form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu). 
 
 :bulb: Or by expressing your idea, suggest something new (or asking a question) on a specific deployment scenario by creating an issue, by checking the contribution rules on [CONTRIBUTING.md](CONTRIBUTING.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
+
 
 
 
