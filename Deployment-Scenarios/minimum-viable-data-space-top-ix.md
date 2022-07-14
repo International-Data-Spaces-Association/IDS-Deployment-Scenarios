@@ -217,13 +217,15 @@ Once the resource has been created we will be redirected to the screen with the 
 
 Now let's try to access the resource from the other connector, the Consumer one. From the Web interface we go to Data Consumption > IDS Resources > Request Resource. Here we enter the URL of the connector (which attention, it must be the IDS-HTTP endpoint: for example https://idsa-provider.jwlss.pw:8080/api/ids/data) and select the resource. At this point we will be presented with the established contract of the provider (in point 1, Metadata) and we will have the possibility to accept it or not: if we accept it, an agreement will be created, and we will have access to the "representation", that is, a URL that points to the resource to which we will access through the connector.
 
-We have therefore seen how to create a minimum Data Space and how to use it to exchange resources. Thanks to the principle of interoperability (at the heart of initiatives such as GAIA-X) we will be able in the future to extend this network in a simple way, installing a connector for each participant and offering a series of Federation Services encoded in the IDS architecture.
+We have therefore seen how to create a minimum Data Space and how to use it to exchange resources. Thanks to the principle of interoperability (at the heart of initiatives such as [GAIA-X](https://gaia-x.eu/)) we will be able in the future to extend this network in a simple way, installing a connector for each participant and offering a series of Federation Services encoded in the IDS architecture.
 
-To learn more about this topic, please consult the IDSA Reference Architecture Model and the implementations of the main connectors, Eclipse and the IDS Reference Connector. For any comments or suggestions on this guide we also invite you to contact us.
+To learn more about this topic, please consult the [IDSA Reference Architecture Model](https://internationaldataspaces.org/use/reference-architecture/) and the implementations of the main connectors, [Eclipse](https://github.com/eclipse-dataspaceconnector/DataSpaceConnector) and the [IDS Reference Connector](https://github.com/International-Data-Spaces-Association/DataspaceConnector/). For any comments or suggestions on this guide we also invite you to contact us.
 
-CREDITS
-This article was written by Giulio Muscarello under the supervision of Christian Racca.
+---
+
+### CREDITS
+This article was written by [Giulio Muscarello](https://www.linkedin.com/in/giulio-muscarello-724201130/) under the supervision of [Christian Racca](https://www.linkedin.com/in/christianracca/).
 
 Giulio is an open source developer with a passion for administering Linux systems and Kubernetes clusters. Between March and May he partnered with TOP-IX to explore value-added GAIA-X Federation Services for Data Spaces.
 
-Christian is Senior Engineer and Program Manager for the TOP-IX Consortium.
+Christian is Senior Engineer and Program Manager for the [TOP-IX](https://www.top-ix.org/) Consortium.
