@@ -15,9 +15,9 @@ An envisaged flow for running an experiment with a IDS Deployment Scenario can b
 
 ## List of Existing IDS Deployment Scenarios
 
-| Name of the Deployment Scenario | Provider | Description | 
-| -------- | -------- | -------- |
-| [Minimum Viable Data Space](Deployment-Scenarios/minimum-viable-data-space-top-ix.md)  | [TOP-IX](https://www.top-ix.org/it/home/)   | An example deployment of [Minimum Viable Data Space](https://github.com/International-Data-Spaces-Association/IDS-testbed/tree/IDS-testbed-mvds/minimum-viable-data-space) (as defined by IDSA) with the use of [CA](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios/blob/main/Deployment-Scenarios/minimum-viable-data-space-top-ix.md#ca--certificate-authority), [DAPS](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios/blob/main/Deployment-Scenarios/minimum-viable-data-space-top-ix.md#daps--dynamic-attribute-provisioning-service) and [Connector](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios/blob/main/Deployment-Scenarios/minimum-viable-data-space-top-ix.md#connector) |
+| Name of the Deployment Scenario | Provider | Description | Used Components | 
+| -------- | -------- | -------- | -------- |
+| [Minimum Viable Data Space](Deployment-Scenarios/minimum-viable-data-space-top-ix.md) | [TOP-IX](https://www.top-ix.org/it/home/) | An example deployment of Minimum Viable Data Space (as defined by IDSA) | CA, DAPS and Connector |
 
 ## How to contribute with (or to) a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
