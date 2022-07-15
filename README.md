@@ -16,6 +16,11 @@ An envisaged flow for running an experiment with a IDS Deployment Scenario can b
 ## What are the existing IDS Deployment Scenario Examples?
 First examples of IDS Deployment Scenarios are currently under preparation and will be available soon. 
 
+| Name of the Deployment Scenario | Owner | Description | 
+| -------- | -------- | -------- |
+| [Minimum Viable Data Space](Deployment-Scenarios/minimum-viable-data-space-top-ix.md)  | [TOP-IX](https://www.top-ix.org/it/home/)   | An example deployment of [Minimum Viable Data Space](https://github.com/International-Data-Spaces-Association/IDS-testbed/tree/IDS-testbed-mvds/minimum-viable-data-space) (as defined by IDSA) with the use of [CA](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios/blob/Add-Deployment-Scenarios-Page/Deployment-Scenarios/minimum-viable-data-space-top-ix.md#ca--certificate-authority) [DAPS](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios/blob/Add-Deployment-Scenarios-Page/Deployment-Scenarios/minimum-viable-data-space-top-ix.md#daps--dynamic-attribute-provisioning-service) and [Connector](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios/blob/Add-Deployment-Scenarios-Page/Deployment-Scenarios/minimum-viable-data-space-top-ix.md#connector) |
+
+
 ## How to contribute with (or to) a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
