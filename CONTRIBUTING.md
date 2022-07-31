@@ -1,6 +1,4 @@
-# Contributing to IDSA Github
-
-This is the official repository of [IDSA](https://www.internationaldataspaces.org) to provide a general overview of what is available on the IDS Open Source Landscape.
+# Contributing to IDS Deployment Scenarios
 
 All content published here is provided and approved by the IDSA Head Office. You are very welcome to contribute to this repository when you find a bug, want to suggest an improvement, or have an idea for a useful feature. For this, always create an issue and a corresponding branch, and follow our style guides as described below.
 
