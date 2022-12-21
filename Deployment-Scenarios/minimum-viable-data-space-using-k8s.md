@@ -44,7 +44,7 @@ The characteristics of the PC used are:
 
 ## CLI steps
 
-Firstly, it is necessary to download the repository[IDS-testbed-k8s-folder] with the manifests.
+Firstly, it is necessary to download the *repository[IDS-testbed-k8s-folder] with the manifests.
 
 ```git clone https://github.com/International-Data-Spaces-Association/IDS-testbed/```
 
@@ -148,12 +148,12 @@ networks:
 
 The file TestbedPreconfigurationK8s.postman_collection has been modified to test the data space and the connectors. This file has a request set to check the data space status. It is recommended to pass all tests before using the data space. 
 
-The [IDS-testbed-k8s-folder] repository has a little library in .ipynb that facilitates the use of the data space. This library is written in python and is designed to use simple functions and send any type of data through the data space. 
+The *[IDS-testbed-k8s-folder] repository has a little library in .ipynb that facilitates the use of the data space. This library is written in python and is designed to use simple functions and send any type of data through the data space. 
 
 Piece of code here
 
 
-This system has been used in an European real project to join the data exchange among pilots. The name of this project id FlexigroBots and its goal is the creation of data value chains in the agriculture environment that maximize synergies, collaboration, and opening of new business opportunities based on data while ensuring sovereignty and security is one of the main goals of the H2020 FlexiGroBots project. To achieve all that, an IDSA-compliant DataSpace has been implemented to be deployed and operated in cloud-native infrastructures managed by Kubernetes.
+This system has been used in an European real project to join the data exchange among pilots. The name of this project is FlexigroBots and its goal is the creation of data value chains in the agriculture environment that maximize synergies, collaboration, and opening of new business opportunities based on data while ensuring sovereignty and security is one of the main goals of the H2020 FlexiGroBots project. To achieve all that, an IDSA-compliant DataSpace has been implemented to be deployed and operated in cloud-native infrastructures managed by Kubernetes.
 
 In addition to being one of the requirements of the project, it is essential for FlexiGroBots that data is shared among the different stakeholders of the agri-food domain (e.g., IoT platforms providers, farm management systems vendors, robotics systems manufacturers) to break the silos that currently exist and to enable more powerful services to be developed. From the existing IDSA open-source testbed that relies on Docker containers and Docker-compose for the deployment and orchestration, an @Atos team has developed all necessary manifests to achieve the aforementioned deployment to realise an IDS-Testbed using a Kubernetes cluster. It is being used in collaboration with the rest of the partners of FlexiGroBots to enable information to be exchanged in three different agricultural pilots.
 
@@ -169,6 +169,10 @@ To learn more about this topic, please consult the [IDSA Reference Architecture 
 ### CREDITS
 This article was written by [Antonio Carlos Cob Parro](https://www.linkedin.com/in/carlos-cob-parro/) under the supervision of [Daniel Calvo Moreno](https://www.linkedin.com/in/calvoad/).
 
-A. Carlos Cob is "fill the blank".
+A. Carlos Cob is Telecommunications engineer and software developer specialised in artificial intelligence and machine learning.
 
 Daniel Calvo is Telecommunications engineer with more than 10 years of experience working on research and innovation projects in the area of embedded systems, edge computing, Internet of Things (IoT) and Artificial Intelligence.
+
+
+
+'*'repository[IDS-testbed-k8s-folder]: We need to know where to push the manifests. I do not know if you would prefer to have the deployment in the IDS-TesteBed repository or another different repository. I wrote Sonia about that because we have prepared whole documentation about k8s deployment. Even so, we will be looking forward to hearing from you.
