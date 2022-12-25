@@ -18,6 +18,7 @@ An envisaged flow for running an experiment with a IDS Deployment Scenario can b
 | Name of the Deployment Scenario | Provider | Description | Used Components | 
 | -------- | -------- | -------- | -------- |
 | [Minimum Viable Data Space](Deployment-Scenarios/minimum-viable-data-space-top-ix.md) | [TOP-IX](https://www.top-ix.org/it/home/) | An example deployment of Minimum Viable Data Space (as defined by IDSA) | CA, DAPS and Connector |
+| [IDS Testbed Deployment Using Kubernetes Architecture](Deployment-Scenarios/minimum-viable-data-space-using-k8s.md) | [ATOS](https://atos.net/es/spain) | How to deploy an IDS-Testbed using Kubernetes | CA, DAPS and Connector |
 
 ## How to contribute with (or to) a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
