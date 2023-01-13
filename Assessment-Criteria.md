@@ -1,13 +1,8 @@
 # Assessment Criteria for IDS Deployment Scenarios
 
 ## Purpose of the Document
-IDS Deployment Scenarios show examples of implementations that apply IDS standard. This document shows the maturity assessment criteria based on which the IDS Deployment Scenarios are classified under three levels: 
+IDS Deployment Scenarios show examples of implementations that apply IDS standard. This document shows the maturity assessment criteria based on which the IDS Deployment Scenarios are classified under three levels: Sandbox, Incubating and Graduated.
 
-:one: Sandbox
-
-:two: Incubating 
-
-:three: Graduated
 
 ## Project Stages
 
@@ -34,11 +29,11 @@ In addition to the criteria mentioned in Sandbox stage, Incubating stage also re
 Graduated deployments signal the highest level of maturity for an IDSA project. They consist of productive environments that have achieved a broad acceptance and adoption by organizations. 
 
 In addition to the criteria mentioned in Sandbox stage, Incubating stage also requires deployments to:  
-- Secure IDS Certification (for components and operational environments)
+- Have IDS Certification (for components and operational environments)
 - Adopted by multiple organizations and already enabling data sharing in a secure and sovereign way, as defined by IDS standards.
 
 
-## Submission/Application Processes
+## How Can I Have My IDS Deployment Scenario Evaluated? 
 All IDS Deployment Scenarios can be submitted via the [Data Space Radar form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu). 
 
 Following this, the maturity assessment of a IDS Deployment Scenario is made in the IDSA Ecosystem Building Calls (also known as "Monday Morning Calls") that take place on Monday mornings (09:00-10:00 CET/CEST). These meetings consist of data space experts from various organizations within the IDSA Network. 
@@ -67,17 +62,16 @@ Every IDS Deployment Scenario has an associated maturity level. Proposed IDS Dep
 Projects that achieve the sandbox, incubating or graduation status are listed on the [IDS Deployment Scenarios repository](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios)
 
  
-### Evaluation Criteria for Each Stage
+### Sample Evaluation Criteria for Each Stage
 
 #### Sandbox
 - Does the deployment scenario involve (or plans to involve) data sharing in a secure and sovereign way, as defined by IDS standards?
 - Does the deployment scenario involve the use of IDS components?  
 
 #### Incubation (in addition to the criteria mentioned in Sandbox)
-
-- Does the deployment scenario involve (or plans to involve) data sharing in a secure and sovereign way, as defined by IDS standards?
-- Does the deployment scenario involve the use of IDS components?  
+- Has the IDS Testbed been used at any stage of this deployment scenario? (e.g. for testing component behaviour and/or interoperability) 
+- Is there a plan (or expressed intention) towards IDS Certification? 
 
 #### Graduation (in addition to the criteria mentioned in Incubation)
-
-
+- Are the components and working environment certified?
+- Is it already being used and adopted by multiple organizations? 
