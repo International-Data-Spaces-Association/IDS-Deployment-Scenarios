@@ -12,32 +12,34 @@ IDS Deployment Scenarios show examples of implementations that apply IDS standar
 ## Project Stages
 
 ### Sandbox Stage
-The IDSA Sandbox has four goals:
-- Encourage public visibility of experiments or other early work that can add value to the IDSA mission and build the ingredients of a successful Incubation-level project.
-- Facilitate alignment with existing projects if (and only if) this is desired.
-- Nurture projects (e.g., by IDSA Head Office and IDSA member support).
-- Remove possible legal and governance obstacles to adoption and contribution by ensuring all projects adhere to IDSA legal, [code of conduct](Code_of_Conduct.md), and [IP policy requirements](IP_Policy.md).
+The IDS Deployment Scenarios in Sandbox stage are:
+- Deployments that are designed to extend one or more IDSA projects with functionality or interoperability libraries. 
+- Independent deployments that fit the IDSA mission and provide the potential for a novel approach to existing functional areas (or are an attempt to meet an unfulfilled need).
+- Deployments commissioned or sanctioned by the IDSA, including initial code for IDSA WG collaborations, and “experimental” projects.
+- Any deployment that realistically intends to join IDSA Incubation in future and wishes to lay the foundations for that.
+- Pilots, research projects or work that are in progress 
 
+:information_source: The term **"deployment"** refers to a set of components. So, a deployment scenario should consist of multiple components that enable data sharing in a secure and sovereign way, as described by IDS standards.
 
-When we say that Sandbox projects are “early stage,” this covers the following examples:
--	New projects that are designed to extend one or more IDSA projects with functionality or interoperability libraries. 
--	Independent projects that fit the IDSA mission and provide the potential for a novel approach to existing functional areas (or are an attempt to meet an unfulfilled need).
--	Projects commissioned or sanctioned by the IDSA, including initial code for IDSA WG collaborations, and “experimental” projects.
--	Any project that realistically intends to join IDSA Incubation in future and wishes to lay the foundations for that.
-
-:information_source: The term **"project"** refers to both a single component or a set of components. So it is possible for a project (that is applicant of IDS Graduation Scheme) to be consisting of a standalone component or multiple components.
+For the deployment scenarios in Sandbox stage, do not necessarily have to be consisted of certified components. 
 
 ### Incubating Stage
-Incubating projects have proven their compatibility (based on IDS Certification), reliability, vision and mission.
+Incubating deployments have proven their compatibility (based on IDS Certification), reliability, vision and mission. These deployments consist of the ones that are close to real use. 
+
+In addition to the criteria mentioned in Sandbox stage, Incubating stage also requires deployments to:  
+- Have a test conducted via IDS Testbed
+- Have a clear plan towards IDS Certification 
 
 ### Graduation Stage
-Graduated projects signal the highest level of maturity for an IDSA project. They have achieved a broad acceptance and adoption in data spaces. 
- 
- ![graduation stages](media/graduation_steps.png)
+Graduated deployments signal the highest level of maturity for an IDSA project. They consist of productive environments that have achieved a broad acceptance and adoption by organizations. 
+
+In addition to the criteria mentioned in Sandbox stage, Incubating stage also requires deployments to:  
+- Secure IDS Certification (for components and operational environments)
+- Adopted by multiple organizations and already enabling data sharing in a secure and sovereign way, as defined by IDS standards.
+
 
 ## Submission/Application Processes
-
-This governance policy sets forth the proposal process for projects to be accepted into the [International Data Spaces Association](https://internationaldataspaces.org/) \(“IDSA”\). The process is the same for both existing projects which seek to move into the IDSA, and new projects to be formed within the IDSA.
+IDS Deployment Scenarios 
  
 ### Sandbox Application Process
 
