@@ -16,11 +16,11 @@ The IDS Deployment Scenarios in Sandbox stage are:
 - Independent deployments that fit the IDSA mission and provide the potential for a novel approach to existing functional areas (or are an attempt to meet an unfulfilled need).
 - Deployments commissioned or sanctioned by the IDSA, including initial code for IDSA WG collaborations, and “experimental” projects.
 - Any deployment that realistically intends to join IDSA Incubation in future and wishes to lay the foundations for that.
-- Pilots, research projects or work that are in progress 
+- Pilots, research projects or work that are in progress. 
 
-:information_source: The term **"deployment"** refers to a set of components. So, a deployment scenario should consist of multiple components that enable data sharing in a secure and sovereign way, as described by IDS standards, i.e., the use of data connectors and Identity Providers is mandatory, while other components may be optional.
+:information_source: The term **"deployment"** refers to a set of components. Thus, a deployment scenario should consist of multiple components that enable data sharing in a secure and sovereign way, as described by IDS standards, i.e., the use of data connectors and Identity Providers is mandatory, while other components may be optional.
 
-The IDS Deployment Scenarios in Sandbox stage, do not necessarily have to consist of certified components. While any deviations from the documentation should be justified during the application, it is intended that projects shall apply as early and inmature as possible to the sandbox stage to receive support and feedback from the community. 
+The IDS Deployment Scenarios in Sandbox stage, do not necessarily have to consist of certified components. While any deviations from the documentation should be justified during the application, it is intended that projects shall apply as early and immature as possible to the sandbox stage to receive support and feedback from the community. 
 
 #### Evaluation Criteria 
 
@@ -28,7 +28,7 @@ The IDS Deployment Scenarios in Sandbox stage, do not necessarily have to consis
 
 :ballot_box_with_check: Does the deployment scenario involve the use of IDS components?  
 
-:ballot_box_with_check: Does it provide a suffcient documentation that describes the purpose, scope and goal of the deployment scenario? Is the technical setup documented inculding a figure describing the architecture overview (e.g. an UML deployment diagram) and is the setup reproducable from externals?
+:ballot_box_with_check: Does it provide a sufficient documentation that describes the purpose, scope and goal of the deployment scenario? Is the technical setup documented including a figure depicting the architecture overview (e.g. an UML deployment diagram) and is the setup reproducable by externals?
 
 :ballot_box_with_check: Is a contact provided?
 
@@ -51,7 +51,7 @@ In addition to the criteria mentioned in Sandbox stage, Incubating stage also re
 
 :ballot_box_with_check: Are changes that lead to non-compliance to IDS-Certification addressed in the IDSA Working Groups to be adaopted?
 
-:ballot_box_with_check: Is the deployment scenario permantly availble for the participants and does it provide measures to onboard additonal participants (if applicable)?
+:ballot_box_with_check: Is the deployment scenario permanently available for the participants and does it provide measures to onboard additonal participants (if applicable)?
 
 ---
 
@@ -76,13 +76,13 @@ All IDS Deployment Scenarios can be submitted via the [Data Space Radar form](ht
 
 Following this, the maturity assessment of a IDS Deployment Scenario is made in the IDSA Ecosystem Building Calls (also known as "Monday Morning Calls") that take place on Monday mornings (09:00-10:00 CET/CEST). These meetings consist of data space experts from various organizations within the IDSA Network. 
 
-If you would be interested in participating to these meetings please send an email to: [carlos.gonzalez@internationaldataspaces.org](mailto:carlos.gonzalez@internationaldataspaces.org)
+If you would be interested in participating to these meetings please send an email to: [Carlos Gonzalez, Community Manager IDSA](mailto:carlos.gonzalez@internationaldataspaces.org)
 
 Basically, the evaluation process consists of four steps explained below:
 
 :one: Submit the IDS Deployment Scenario via the [form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu)
 
-:two: Declare interest for your IDS Deployment Scenario to be evaluated in IDSA Ecosystem Building Calls. If your IDS Deployment Scenario is already part of the Data Space Radar, then you can simply send an email to [carlos.gonzalez@internationaldataspaces.org](mailto:carlos.gonzalez@internationaldataspaces.org) to request for evaluation of your IDS Deployment Scenario.
+:two: Declare interest for your IDS Deployment Scenario to be evaluated in IDSA Ecosystem Building Calls. If your IDS Deployment Scenario is already part of the Data Space Radar, then you can simply send an email to [Carlos Gonzalez](mailto:carlos.gonzalez@internationaldataspaces.org) to request for evaluation of your IDS Deployment Scenario.
 
 :three: Pitch your project in one of the IDSA Ecosystem Building Calls
 
