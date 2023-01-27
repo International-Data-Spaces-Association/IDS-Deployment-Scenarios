@@ -49,7 +49,7 @@ In addition to the criteria mentioned in Sandbox stage, Incubating stage also re
 
 :ballot_box_with_check: Is there a plan (or expressed intention) towards IDS Certification?
 
-:ballot_box_with_check: Are changes that lead to non-compliance to IDS-Certification addressed in the IDSA Working Groups to be adaopted?
+:ballot_box_with_check: Are changes that lead to non-compliance to IDS-Certification addressed in the IDSA Working Groups to be adopted?
 
 :ballot_box_with_check: Is the deployment scenario permanently available for the participants and does it provide measures to onboard additonal participants (if applicable)?
 
