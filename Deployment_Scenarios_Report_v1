@@ -3,13 +3,13 @@
 
 ## Introduction
 
-* what is a data space
+### What is a Data Space? 
+
 * what are cool use cases and why do we need data spaces
 * Technically speaking, what is a data space
 * Connectors
 * MVDS, what are the services we need
 * How to join in to Deployment scenarios, call to action
-
 
 ## Foundation - terms and defintions
 * there are different things to be known before
@@ -22,21 +22,17 @@
 * include cool figures from Anil and Christoph
 
 ## Overview
-
 brief introduction, how to read this section
 
 ### IDS Reference testbed
-
 to be explained
 
 ### Deployment scenarios
-
 * differentiate between
-  * complex techniclogica additions
-  * "just" usage of technologies, like IMT is just using the connector in projects
+  * complex technologic additions
+  * "just" usage of technologies, like a connector being used by an organization in projects, for various purposes
 
-### testbeds
-
+### Testbeds
 * list and describe the testbeds
 
 ## Outlook and next steps
