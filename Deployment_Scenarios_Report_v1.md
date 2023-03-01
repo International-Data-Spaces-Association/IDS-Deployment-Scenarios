@@ -7,7 +7,7 @@
 
 #### What are cool use cases and why do we need data spaces?
 #### Technically speaking, what is a data space?
-![Data Sharing in a Data Space](images/IDSA-Infographic-Data-Sharing-in-a-Data-Space.jpg)
+![Data Sharing in a Data Space](/images/IDSA-Infographic-Data-Sharing-in-a-Data-Space.jpg)
 * Connectors
 * MVDS, what are the services we need
 * How to join in to Deployment scenarios, call to action
