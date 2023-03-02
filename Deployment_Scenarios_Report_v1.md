@@ -27,13 +27,11 @@ Graduation Scheme table
   * providing services
 
 ### 2.1 IDS Reference testbed
-[IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) is a setup with Open Source IDS components which can be used to verify that a component implements the IDS specifications for establishing connections and communication, thus is able to work interoperable with all IDS components in the testbed setup.
+[IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) is an invaluable tool for ensuring that components conform to the IDS specifications for connection and communication. It is a setup that utilizes Open Source IDS components and enables organizations to verify that their own components work interoperably with other IDS components within the testbed. The testbed provides organizations with the ability to conduct component behavior testing and interoperability testing against various IDS components (such as the Connector, DAPS, CA, and Metadata Broker).
 
-It can be used for: 
-- Component behaviour testing
-- Interoperability testing against IDS components (Connector, DAPS, CA, Metadata Broker)
-- Preparation for IDS certification
-- Starting point for creation of data spaces
+Moreover, the IDS Testbed is also a great place to start preparing for IDS certification. By utilizing the testbed, organizations can thoroughly test their components and ensure that they meet the necessary requirements for IDS certification. The testbed can help organizations identify any issues with their components before they are certified, thereby minimizing any potential disruptions during the certification process.
+
+In addition to testing and certification, the IDS Testbed can also serve as a starting point for creating data spaces. The testbed provides a framework for organizations to begin building their own data spaces with confidence. By ensuring interoperability and compatibility between various components, organizations can have a solid foundation upon which to build their data spaces. The IDS Testbed is a powerful tool that enables organizations to develop, test, and certify components and data spaces that adhere to the IDS specifications and work seamlessly with other IDS components.
 
 ### 2.2 Deployment scenarios
 * differentiate between
