@@ -5,6 +5,8 @@
 #### 1.1 What is a Data Space? 
 
 #### 1.2 What are cool use cases and why do we need data spaces?
+The International Data Spaces standard enables cross-company business processes known as use cases. These use cases play a crucial role in identifying, analyzing, and evaluating user requirements for IDS. Moreover, by implementing a use case, companies can foster innovation and create an ecosystem by involving internal and external stakeholders in the development of smart value-added services. Use cases serve as the fuel for data spaces, which act as the engine. They facilitate and expedite the creation of cross-domain and cross-country data spaces with numerous participants.
+[Data Spaces Overview] brochure that is available via [Most Important Documents] page of IDSA Website lists the use cases along with the challenges they are tackling, the success stories behind and the components used in each scenario to enable data sharing in a secure and sovereign way. This document gets updated on an annual basis.
 
 #### 1.3 Technically speaking, what is a data space?
 ![Data Sharing in a Data Space](/images/IDSA-Infographic-Data-Sharing-in-a-Data-Space.jpg)
