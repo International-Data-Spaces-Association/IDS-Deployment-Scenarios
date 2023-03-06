@@ -20,10 +20,10 @@ The IDS Deployment Scenarios in Sandbox stage are:
 - Any deployment that realistically intends to join IDSA Incubation in future and wishes to lay the foundations for that.
 - Pilots, research projects or work that are in progress.
 
-:information_source: The term **"deployment"** refers to a set of components. Thus, a deployment scenario should consist of multiple components that enable data sharing in a secure and sovereign way, as described by IDS standards, i.e., the use of data connectors and Identity Providers is mandatory, while other components may be optional.
+:information_source: The term **"deployment"** refers to a set of components. Thus, a Deployment Scenario should consist of multiple components that enable data sharing in a secure and sovereign way, as described by IDS standards, i.e., the use of data connectors and Identity Providers is mandatory, while other components may be optional.
 
 The IDS Deployment Scenarios in Sandbox stage, do not necessarily have to consist of certified components. While any deviations from the documentation should be justified during the application, it is intended that projects shall apply as early and immature as possible to the sandbox stage to receive support and feedback from the community.
-The obvous path for Sandbox projects is to become an Incubated Deployment Scenario in the future. 
+The obvous path for Sandbox projects is to become an Incubated Deployment Scenario in the future.
 
 #### Evaluation Criteria
 
@@ -31,7 +31,7 @@ The obvous path for Sandbox projects is to become an Incubated Deployment Scenar
 
 :ballot_box_with_check: Does the Deployment Scenario involve the use of IDS components?  
 
-:ballot_box_with_check: Does it provide a sufficient documentation that describes the purpose, scope and goal of the deployment scenario? Is the technical setup documented including a figure depicting the architecture overview (e.g. an UML deployment diagram) and is the setup reproducable by externals?
+:ballot_box_with_check: Does it provide a sufficient documentation that describes the purpose, scope and goal of the Deployment Scenario? Is the technical setup documented including a figure depicting the architecture overview (e.g. an UML deployment diagram) and is the setup reproducable by externals?
 
 :ballot_box_with_check: Is a contact provided?
 
@@ -54,7 +54,7 @@ In addition to the criteria mentioned in Sandbox stage, Incubating stage also re
 
 :ballot_box_with_check: Are changes that lead to non-compliance to IDS-Certification addressed in the IDSA Working Groups to be adopted?
 
-:ballot_box_with_check: Is the deployment scenario permanently available for the participants and does it provide measures to onboard additonal participants (if applicable)?
+:ballot_box_with_check: Is the Deployment Scenario permanently available for the participants and does it provide measures to onboard additonal participants (if applicable)?
 
 ---
 
@@ -89,7 +89,7 @@ Basically, the evaluation process consists of four steps explained below:
 
 :three: Pitch your project in one of the IDSA Ecosystem Building Calls.
 
-:four: Have the community vote on your deployment scenario.
+:four: Have the community vote on your Deployment Scenario.
 
 In addition to the evaluation criteria for each stage (that are mentioned below) an evaluation must have:
 
@@ -97,7 +97,7 @@ In addition to the evaluation criteria for each stage (that are mentioned below)
 voters should consist of people who are not:
 
   a) employees or board members of IDSA
-  b) an employee or associated person to the applying organization that owns the deployment scenario
+  b) an employee or associated person to the applying organization that owns the Deployment Scenario
 
 In case if the minimum number of voters (15) can not be secured within a session of IDSA Ecosystem Building Calls, the voting will be conducted in the next available session, where the minimum number of voters can be granted.
 
