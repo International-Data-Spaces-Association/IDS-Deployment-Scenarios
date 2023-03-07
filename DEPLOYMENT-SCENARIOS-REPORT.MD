@@ -26,7 +26,7 @@ Graduation Scheme table
   * testing for extension
   * providing services
 
-### 2.1 IDS Reference testbed
+### 2.1 IDS Testbed
 [IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) is an invaluable tool for ensuring that components conform to the IDS specifications for connection and communication. It is a setup that utilizes Open Source IDS components and enables organizations to verify that their own components work interoperably with other IDS components within the testbed. The testbed provides organizations with the ability to conduct component behavior testing and interoperability testing against various IDS components (such as the Connector, DAPS, CA, and Metadata Broker).
 
 Moreover, the IDS Testbed is also a great place to start preparing for IDS certification. By utilizing the testbed, organizations can thoroughly test their components and ensure that they meet the necessary requirements for IDS certification. The testbed can help organizations identify any issues with their components before they are certified, thereby minimizing any potential disruptions during the certification process.
@@ -38,8 +38,10 @@ In addition to testing and certification, the IDS Testbed can also serve as a st
   * complex technologic additions
   * "just" usage of technologies, like a connector being used by an organization in projects, for various purposes
   
-#### 2.2.1 How to join in to Deployment scenarios, call to action
-Why should one share a deployment scenario? Because we are in the early steps of the technology. 
+#### 2.2.1 How to join to Deployment Scenarios? call to action
+Why should one share a deployment scenario? 
+Because we are in the early steps of the technology. 
+
 What advantages does it provide? More visibility, your experiment will be exposed to more people. Potential contributors.
 
 ### 2.3 Testbeds
