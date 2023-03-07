@@ -66,7 +66,7 @@ brief introduction, how to read this section
 * include cool figures from Anil and Christoph
 
 
-** A tale of many cities (city analogy to explain data spaces)
+#### A tale of many cities (city analogy to explain data spaces)
 The city analogy is a powerful and effective way to understand the concept, structure, functionality and role of data spaces. While highlighting the similarities between data spaces and physical cities, one can not only understand the key features and functions of data spaces in an easier way, but also can better understand how this technology will evolve in the future.
 
 Just as cities consist of many elements and zones such as residential areas, industrial zones and commercial zones, data spaces consist of components that fulfill the roles to enable secure and sovereign data exchange between parties. Like cities, data spaces are made up of different neighborhoods or domains, each with its own unique character and needs. For example, a manufacturing data space may have different requirements than a healthcare data space, and each domain may have its own data owners, data consumers, and service providers.
