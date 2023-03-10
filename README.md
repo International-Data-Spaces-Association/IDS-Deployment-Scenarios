@@ -39,7 +39,7 @@ Sharing deployment scenarios with others can also have many advantages for the o
 - **Feel good factor**: Sharing deployment scenarios with others can give the original implementor a sense of satisfaction and fulfillment. Knowing that their work is helping others and making a positive impact can be very rewarding.
 
 ### Relationship with Data Space Radar
-![](images/dataspaceradar.png)
+![](images/dataspace-radar.png)
 In the Data Space Radar, all solutions that reached the pilot and live stages can be considered as an IDS Deployment Scenario, since they involve the implementation of a data space solution to solve a specific business problem. 
 
 ### How to assess the maturity level of a IDS Deployment Scenario?
