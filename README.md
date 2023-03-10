@@ -9,6 +9,9 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 - is built with the intention to resolve a problem, by means of secure and sovereign data sharing
 - is adequately documented to enable others to follow the same path
 
+The purpose is all that matters. 
+(Puzzle examples)
+
 An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
 
 ![IDS Deployment Scenarios Process](images/ids-deployment-scenarios-process.png)
