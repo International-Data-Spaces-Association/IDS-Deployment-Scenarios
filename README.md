@@ -59,5 +59,6 @@ We recommend that your deployment scenario to contain:
 - Which components are used in the scenario 
 - What purpose the entire deployment is made for? What problem does it try to solve? Clearly define the purpose of the deployment scenario, including the intended use case and expected outcomes.
 - Deployment Process: Describe the deployment process, including any installation, configuration, or testing procedures.
+- Any other resources that might be helpful to reproduce the scenario.
 
 
