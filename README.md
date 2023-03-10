@@ -48,15 +48,12 @@ Level 3 (Pilot) and Level 4 (Live) are considered to be candidates for IDS Deplo
 ## How can I share a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
-Send a pull request 
-Or if you are already on your way to share a use case (via Data Space Radar) you can also do that. 
+:triangular_flag_on_post: By sending a pull request via this repository (please be sure to check the [contribution guidelines](CONTRIBUTING.md)).
 
-:triangular_flag_on_post: Either by suggesting to list a deployment scenario here by using [the Data Space Radar form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu). 
-
-:bulb: Or by expressing your idea, suggest something new (or asking a question) on a specific deployment scenario by creating an issue, by checking the contribution rules on [CONTRIBUTING.md](CONTRIBUTING.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
+:triangular_flag_on_post: You can also share it [via this form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu) for [the Data Space Radar](https://internationaldataspaces.org/adopt/data-space-radar/). While filling in the form, please note that only the implementations at the pilot and live stages will be considered as IDS Deployment Scenarios.
 
 ## Is there a template I should follow? 
-While there is no strict template to adhere to when sharing deployment scenarios with others, there are some recommendations that can be taken into consideration to ensure that the sharing process is effective and helpful. 
+While there is no strict template to adhere to when sharing deployment scenarios with others, we have some recommendations that can be taken into consideration to ensure that the sharing process is effective and helpful. 
 
 We recommend that your deployment scenario to contain: 
 - **System Requirements**: Specify the minimum hardware and software requirements necessary for the successful deployment of the system.
