@@ -43,7 +43,9 @@ Level 3 (Pilot) and Level 4 (Live) are considered to be candidates for IDS Deplo
 
 
 ### How to assess the maturity level of a IDS Deployment Scenario?
+The maturity level of an IDS Deployment Scenario is currently not listed but as more IDS deployment scenarios are listed, we will have this activated. 
 
+Meanwhile, please feel free to check and comment on the [Maturity Assessment Criteria](Maturity-Assessment-Criteria.md) on this repository that suggests a methodology to assess the maturity of IDS Deployment Scenarios, in three levels: Sandbox, Incubated and Graduated. 
 
 ## How can I share a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
