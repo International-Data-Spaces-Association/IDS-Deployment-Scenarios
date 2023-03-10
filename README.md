@@ -12,10 +12,11 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 - is adequately documented to enable others to follow the same path
 
 ### Example: 
+![](images/IDS-Deployment-Scenarios-Patterns.png)
 As depicted on the image above, there are several ways to create a deployment scenario. As long as the implementation is made for a purpose and contains an IDS-compliant component, it can be considered as an IDS Deployment Scenario. 
 
-
 An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
+![](images/creationprocess.png)
 
 ![IDS Deployment Scenarios Process](images/ids-deployment-scenarios-process.png)
 (Step 1: Take as many components as you want) 
