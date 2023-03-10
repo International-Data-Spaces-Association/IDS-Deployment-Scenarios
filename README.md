@@ -1,6 +1,13 @@
 # IDS Deployment Scenarios
 This repository lists IDS Deployment Scenarios from various domains and cases. It serves as a library of information, listing different deployment alternatives applied by IDS projects. The ultimate aim is to create a source of inspiration and guidance for those who wish to experiment with data spaces or search for the best deployment practices. This repository also serves as a platform where everyone can express their opinions on the existing deployment scenarios by creating issues and initiating discussions around them.
 
+## List of Existing IDS Deployment Scenarios
+
+| Name of the Deployment Scenario | Provider | Description | Used Components | 
+| -------- | -------- | -------- | -------- |
+| [Minimum Viable Data Space](Deployment-Scenarios/minimum-viable-data-space-top-ix.md) | [TOP-IX](https://www.top-ix.org/it/home/) | An example deployment of Minimum Viable Data Space (as defined by IDSA) | CA, DAPS and Connector |
+| [IDS Testbed Deployment Using Kubernetes Architecture](Deployment-Scenarios/minimum-viable-data-space-using-k8s.md) | [ATOS](https://atos.net/es/spain) | How to deploy an IDS-Testbed using Kubernetes | CA, DAPS and Connector |
+
 :rocket: [Minimum Viable Data Space](https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/minimum-viable-data-space/MVDS.md) is also included as a deployment scenario, defined by IDSA Head Office. It is also a great place to start creating a deployment scenario.
 
 ## What is an IDS Deployment Scenario? 
@@ -18,15 +25,18 @@ As depicted on the image above, there are several ways to create a deployment sc
 An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
 ![](images/creationprocess.png)
 
-![IDS Deployment Scenarios Process](images/ids-deployment-scenarios-process.png)
-(Step 1: Take as many components as you want) 
-(Step 2: Deploy them based on a purpose)
-(Step 3: Document & share so that others can follow the same footsteps)
-
 ### Why Should I Share My Deployment Scenario with Others?  
-Open Source Philosophy & The Importance of Deployment Scenarios
-Successes and Failures
-Advantages for the original implementor. Get recognized & "Feel good" factor.
+Sharing your deployment scenario with others is an essential part of the open source philosophy, which is based on the idea that collaboration and sharing knowledge leads to better results. By sharing your deployment scenario, you allow others to learn from your experience and benefit from your insights, potentially saving them time and effort in their own deployment process.
+
+Sharing deployment scenarios with others can also have many advantages for the original implementor, including:
+
+- **Getting recognized**: Sharing deployment scenarios with others can help the original implementor get recognized for their work. By sharing their scenarios, they can showcase their expertise and demonstrate their ability to solve complex problems.
+
+- **Feedback and improvement**: When others use the deployment scenarios, they may provide feedback and suggest improvements. This can help the original implementor refine their work and make it even better.
+
+- **Collaboration**: Sharing deployment scenarios with others can foster collaboration and create a community of people who are interested in similar topics. This can lead to new partnerships, joint projects, and opportunities to learn from others.
+
+- **Feel good factor**: Sharing deployment scenarios with others can give the original implementor a sense of satisfaction and fulfillment. Knowing that their work is helping others and making a positive impact can be very rewarding.
 
 ### Relationship with Data Space Radar
 Level 3 (Pilot) and Level 4 (Live) are considered to be candidates for IDS Deployment Scenarios.
@@ -34,12 +44,6 @@ Level 3 (Pilot) and Level 4 (Live) are considered to be candidates for IDS Deplo
 
 ### How to assess the maturity level of a IDS Deployment Scenario?
 
-## List of Existing IDS Deployment Scenarios
-
-| Name of the Deployment Scenario | Provider | Description | Used Components | 
-| -------- | -------- | -------- | -------- |
-| [Minimum Viable Data Space](Deployment-Scenarios/minimum-viable-data-space-top-ix.md) | [TOP-IX](https://www.top-ix.org/it/home/) | An example deployment of Minimum Viable Data Space (as defined by IDSA) | CA, DAPS and Connector |
-| [IDS Testbed Deployment Using Kubernetes Architecture](Deployment-Scenarios/minimum-viable-data-space-using-k8s.md) | [ATOS](https://atos.net/es/spain) | How to deploy an IDS-Testbed using Kubernetes | CA, DAPS and Connector |
 
 ## How can I share a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
