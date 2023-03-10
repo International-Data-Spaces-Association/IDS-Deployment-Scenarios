@@ -1,18 +1,19 @@
-# IDS-Deployment-Scenarios
-This is the repository where IDS Deployment Scenarios from various domains and cases are listed. It acts as a library of information listing different deployment alternatives applied by IDS projects. The ultimate aim is to create a source of inspiration and guidance for others who would like to experiment with data spaces or are simply in search for best deployment practices. This is also expected to act as a place where everyone can express their opinions on the existing deployment scenarios by creating issues and initiating discussions around them.
+# IDS Deployment Scenarios
+This repository lists IDS Deployment Scenarios from various domains and cases. It serves as a library of information, listing different deployment alternatives applied by IDS projects. The ultimate aim is to create a source of inspiration and guidance for those who wish to experiment with data spaces or search for the best deployment practices. This repository also serves as a platform where everyone can express their opinions on the existing deployment scenarios by creating issues and initiating discussions around them.
 
 :rocket: [Minimum Viable Data Space](https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/minimum-viable-data-space/MVDS.md) is also included as a deployment scenario, defined by IDSA Head Office. It is also a great place to start creating a deployment scenario.
 
-## What is a IDS Deployment Scenario? 
+## What is an IDS Deployment Scenario? 
+An IDS deployment scenario is a description of the steps and processes involved in delivering a component or a set of components to end-users. It outlines the various stages of deployment, from development and testing to release and optionally maintenance. The scenario typically includes information on the prerequisites (such as hardware and software requirements), configuration settings, and any necessary third-party integrations. It also includes details on the deployment environment, such as whether it will be installed on-premises or in the cloud, and how the system will be monitored and supported once it is live. A deployment scenario helps ensure that the deployment process is consistent, easily repeatable, reusable and efficient, and that the system is deployed in a way that meets the needs of end-users. 
+
 A deployment scenario can be considered as any implementation made with IDS-compliant components:
 - that allows sovereign data sharing (as defined by IDSA)
-- is built with the intention to resolve a problem, by means of secure and sovereign data sharing
+- is built with a clear purpose, to solve a problem
 - is adequately documented to enable others to follow the same path
 
-The purpose is all that matters. 
-(Puzzle examples)
+### Example: 
+As depicted on the image above, there are several ways to create a deployment scenario. As long as the implementation is made for a purpose and contains an IDS-compliant component, it can be considered as an IDS Deployment Scenario. 
 
-Should I customize the components in order to be eligible for a IDS Deployment Scenario? 
 
 An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
 
