@@ -12,17 +12,22 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 The purpose is all that matters. 
 (Puzzle examples)
 
+Should I customize the components in order to be eligible for a IDS Deployment Scenario? 
+
 An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
 
 ![IDS Deployment Scenarios Process](images/ids-deployment-scenarios-process.png)
+(Step 1: Take as many components as you want) 
+(Step 2: Deploy them based on a purpose)
+(Step 3: Document & share so that others can follow the same footsteps)
 
 ### Why Should I Share My Deployment Scenario with Others?  
 Open Source Philosophy & The Importance of Deployment Scenarios
 Successes and Failures
-Advantages for the original implementor.
+Advantages for the original implementor. Get recognized & "Feel good" factor.
 
 ### Relationship with Data Space Radar
-Level 3 and Level 4 are considered to be candidates for IDS Deployment Scenarios.
+Level 3 (Pilot) and Level 4 (Live) are considered to be candidates for IDS Deployment Scenarios.
 
 
 ### How to assess the maturity level of a IDS Deployment Scenario?
@@ -37,12 +42,22 @@ Level 3 and Level 4 are considered to be candidates for IDS Deployment Scenarios
 ## How can I share a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
+Send a pull request 
+Or if you are already on your way to share a use case (via Data Space Radar) you can also do that. 
+
 :triangular_flag_on_post: Either by suggesting to list a deployment scenario here by using [the Data Space Radar form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu). 
 
 :bulb: Or by expressing your idea, suggest something new (or asking a question) on a specific deployment scenario by creating an issue, by checking the contribution rules on [CONTRIBUTING.md](CONTRIBUTING.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Is there a template I should follow? 
 No, not yet.
-
+We recommend that your deployment scenario to contain: 
+- Prerequisites 
+- System Requirements: Specify the minimum hardware and software requirements necessary for the successful deployment of the system.
+- If any network configuration is required
+- Deployment diagram (to show which environment each component is deployed) Docker, Kubernetes Server, etc. Describe the overall architecture of the system, including any third-party components or integrations.
+- Which components are used in the scenario 
+- What purpose the entire deployment is made for? What problem does it try to solve? Clearly define the purpose of the deployment scenario, including the intended use case and expected outcomes.
+- Deployment Process: Describe the deployment process, including any installation, configuration, or testing procedures.
 
 
