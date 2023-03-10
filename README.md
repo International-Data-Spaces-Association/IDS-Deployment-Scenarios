@@ -13,6 +13,17 @@ An envisaged flow for running an experiment with a IDS Deployment Scenario can b
 
 ![IDS Deployment Scenarios Process](images/ids-deployment-scenarios-process.png)
 
+### Why Should I Share My Deployment Scenario with Others?  
+Open Source Philosophy & The Importance of Deployment Scenarios
+Successes and Failures
+Advantages for the original implementor.
+
+### Relationship with Data Space Radar
+Level 3 and Level 4 are considered to be candidates for IDS Deployment Scenarios.
+
+
+### How to assess the maturity level of a IDS Deployment Scenario?
+
 ## List of Existing IDS Deployment Scenarios
 
 | Name of the Deployment Scenario | Provider | Description | Used Components | 
@@ -20,13 +31,15 @@ An envisaged flow for running an experiment with a IDS Deployment Scenario can b
 | [Minimum Viable Data Space](Deployment-Scenarios/minimum-viable-data-space-top-ix.md) | [TOP-IX](https://www.top-ix.org/it/home/) | An example deployment of Minimum Viable Data Space (as defined by IDSA) | CA, DAPS and Connector |
 | [IDS Testbed Deployment Using Kubernetes Architecture](Deployment-Scenarios/minimum-viable-data-space-using-k8s.md) | [ATOS](https://atos.net/es/spain) | How to deploy an IDS-Testbed using Kubernetes | CA, DAPS and Connector |
 
-## How to contribute with (or to) a deployment scenario?
+## How can I share a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
 :triangular_flag_on_post: Either by suggesting to list a deployment scenario here by using [the Data Space Radar form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu). 
 
 :bulb: Or by expressing your idea, suggest something new (or asking a question) on a specific deployment scenario by creating an issue, by checking the contribution rules on [CONTRIBUTING.md](CONTRIBUTING.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
+## Is there a template I should follow? 
+No, not yet.
 
 
 
