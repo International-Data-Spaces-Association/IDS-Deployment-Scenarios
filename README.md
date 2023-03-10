@@ -56,15 +56,13 @@ Or if you are already on your way to share a use case (via Data Space Radar) you
 :bulb: Or by expressing your idea, suggest something new (or asking a question) on a specific deployment scenario by creating an issue, by checking the contribution rules on [CONTRIBUTING.md](CONTRIBUTING.md), and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## Is there a template I should follow? 
-No, not yet.
+While there is no strict template to adhere to when sharing deployment scenarios with others, there are some recommendations that can be taken into consideration to ensure that the sharing process is effective and helpful. 
+
 We recommend that your deployment scenario to contain: 
-- Prerequisites 
-- System Requirements: Specify the minimum hardware and software requirements necessary for the successful deployment of the system.
-- If any network configuration is required
-- Deployment diagram (to show which environment each component is deployed) Docker, Kubernetes Server, etc. Describe the overall architecture of the system, including any third-party components or integrations.
-- Which components are used in the scenario 
-- What purpose the entire deployment is made for? What problem does it try to solve? Clearly define the purpose of the deployment scenario, including the intended use case and expected outcomes.
-- Deployment Process: Describe the deployment process, including any installation, configuration, or testing procedures.
-- Any other resources that might be helpful to reproduce the scenario.
-
-
+- **System Requirements**: Specify the minimum hardware and software requirements necessary for the successful deployment of the system.
+- If any **network configuration** is required.
+- **Deployment diagram** (to show which environment each component is deployed) Docker, Kubernetes Server, etc. Describe the overall architecture of the system, including any third-party components or integrations.
+- Which **components** are used in the deployment scenario. 
+- What **purpose** the entire deployment is made for? What problem it tries to solve? Please clearly define the **purpose of the deployment scenario**, including the intended use case and expected outcomes.
+- **Deployment Process** Describe the deployment process, including any installation, configuration, or testing procedures.
+- Any **other resources** that might be helpful for a third party to reproduce the scenario.
