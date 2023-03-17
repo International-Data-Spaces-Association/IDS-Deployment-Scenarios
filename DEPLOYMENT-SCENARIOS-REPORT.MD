@@ -138,12 +138,10 @@ To achieve this goal, testing is typically carried out in a controlled environme
 
 - **Testing**, the fourth step, involves various testing is crucial in ensuring that the developed system works as intended. This step involves conducting various tests to validate the behavior of components and ensure their interoperability. To conduct these tests, the user can leverage the [IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) for testing purposes.
 
-
-- Finally, in the fifth step, **Certification**, the user can achieve formal validation that their implementation adheres to IDS specifications and standards. 
-
+- Finally, in the fifth step, **Certification**, the user can achieve formal validation that their implementation adheres to IDS specifications and standards. The Certification phase is a critical aspect of the entire development process, as it provides an official confirmation that the system complies with IDS specifications and standards. More information about [IDS Certification is available here](https://internationaldataspaces.org/offers/certification/).
 
 
 <img src="images/development-journey-and-IDS-Assets.png"  width="800" height="382">
-
+The chart above illustrates the various assets involved in the system development journey and how they interact with each other. It shows how these IDS assets, such as the development environment, the testing framework, and the certification process, support the development journey and contribute to the successful deployment of the system. 
 
 ## Outlook and next steps
