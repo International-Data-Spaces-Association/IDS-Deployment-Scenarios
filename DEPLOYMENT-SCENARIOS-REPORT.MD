@@ -1,4 +1,4 @@
-# IDS Testbed and deployments report
+# IDS Testbed and Deployment Scenarios Report
 
 ## 1. Introduction
 
@@ -12,6 +12,9 @@ The International Data Spaces standard enables cross-company business processes 
 [Data Spaces Overview](https://internationaldataspaces.org/wp-content/uploads/dlm_uploads/Data_Spaces_Radar_Web_230307.pdf) brochure that is available via [Most Important Documents](https://internationaldataspaces.org/publications/most-important-documents/) page of IDSA Website lists the use cases along with the challenges they are tackling, the success stories behind and the components used in each scenario to enable data sharing in a secure and sovereign way. This document gets updated on an annual basis.
 
 #### 1.3 Technically speaking, what is a data space?
+According to the definition by International Data Spaces Association (IDSA), a data space is the environment where data from different sources can be collected, processed, and shared in a secure and sovereign fashion. A data space allows exchange and processing of data between different organizations, systems, and applications.
+
+Technically, an IDS-compliant data space consists of a set of interconnected components that enable various interactions with data: such as data exchange, storage, processing, and analysis. These components include data providers, data consumers, data processors, and data controllers. The data space is designed to support the secure and reliable exchange of data, with a strong focus on data privacy and security. It provides a range of functionalities, such as data access control, data sharing agreements, data processing workflows, and data quality assurance. The IDSA has developed a set of standards and specifications for data spaces, which aim to ensure interoperability and compatibility between different data spaces and systems.
 ![Data Sharing in a Data Space](/images/IDSA-Infographic-Data-Sharing-in-a-Data-Space.jpg)
 
 #### 1.4 Connectors
@@ -19,9 +22,16 @@ Connector report
 Graduation Scheme table
 
 #### 1.5 MVDS, what are the services we need?
+A Minimum Viable Data Space (MVDS) is a combination of components that enable the creation of a data space with just enough features to be usable for secure and sovereign data exchange, as specified by the International Data Spaces Association (IDSA). The goal of an MVDS is to streamline the implementation process, making it easier and faster for experimenters to create a working data space with secure and sovereign data exchange. By starting with an MVDS, the development team can iterate quickly and respond to the requirements of the data space, making adjustments as necessary to meet the needs of users.
+
+The IDSA Head Office provides the MVDS as a best practice for creating data spaces. At a minimum, an MVDS includes: 
+- Two connectors (one acting as a data provider, and one as a data consumer)
+- An identity provider (such as a certificate authority) 
+- and a DAPS (Digital Attribute Provisioning Service) (DAPS) 
+- Additional components, such as a metadata broker, an app store, a clearing house, or a vocabulary provider, can be added to the MVDS to extend its functionality and enable more advanced features, such as searching for data sets. The MVDS provides a starting point for experimenters to create a functional data space that can be customized and expanded as needed to meet specific requirements.
 
 ## 2. Foundation - Terms and Definitions
-[IDS Glossary](https://github.com/International-Data-Spaces-Association/IDS-G/tree/main/Glossary) acts as the ultimate source of truth for terms and definitions. 
+[IDS Glossary](https://github.com/International-Data-Spaces-Association/IDS-G/tree/main/Glossary) that is under [IDS-G](https://github.com/International-Data-Spaces-Association/IDS-G) repository acts as the ultimate source of truth for terms and definitions. 
 * there are different things to be known before
 * what do you want to do
   * Testing for validation
@@ -29,12 +39,12 @@ Graduation Scheme table
   * testing for extension
   * providing services
 
-### 2.1 IDS Testbed
+### 2.1 IDS Reference Testbed
 [IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) is an invaluable tool for ensuring that components conform to the IDS specifications for connection and communication. It is a setup that utilizes Open Source IDS components and enables organizations to verify that their own components work interoperably with other IDS components within the testbed. The testbed provides organizations with the ability to conduct component behavior testing and interoperability testing against various IDS components (such as the Connector, DAPS, CA, and Metadata Broker).
 
-Moreover, the IDS Testbed is also a great place to start preparing for IDS certification. By utilizing the testbed, organizations can thoroughly test their components and ensure that they meet the necessary requirements for IDS certification. The testbed can help organizations identify any issues with their components before they are certified, thereby minimizing any potential disruptions during the certification process.
+Moreover, the IDS Reference Testbed is also a great place to start preparing for IDS certification. By utilizing the testbed, organizations can thoroughly test their components and ensure that they meet the necessary requirements for IDS certification. The testbed can help organizations identify any issues with their components before they are certified, thereby minimizing any potential disruptions during the certification process.
 
-In addition to testing and certification, the IDS Testbed can also serve as a starting point for creating data spaces. The testbed provides a framework for organizations to begin building their own data spaces with confidence. By ensuring interoperability and compatibility between various components, organizations can have a solid foundation upon which to build their data spaces. The IDS Testbed is a powerful tool that enables organizations to develop, test, and certify components and data spaces that adhere to the IDS specifications and work seamlessly with other IDS components.
+In addition to testing and certification, the IDS Reference Testbed can also serve as a starting point for creating data spaces. The testbed provides a framework for organizations to begin building their own data spaces with confidence. By ensuring interoperability and compatibility between various components, organizations can have a solid foundation upon which to build their data spaces. The IDS Reference Testbed is a powerful tool that enables organizations to develop, test, and certify components and data spaces that adhere to the IDS specifications and work seamlessly with other IDS components.
 
 ### 2.2 IDS Deployment Scenarios
 An IDS deployment scenario is a description of the steps and processes involved in delivering a component or a set of components to end-users. It outlines the various stages of deployment, from development and testing to release and optionally maintenance. The scenario typically includes information on the prerequisites (such as hardware and software requirements), configuration settings, and any necessary third-party integrations. It also includes details on the deployment environment, such as whether it will be installed on-premises or in the cloud, and how the system will be monitored and supported once it is live. A deployment scenario helps ensure that the deployment process is consistent, easily repeatable, reusable and efficient, and that the system is deployed in a way that meets the needs of end-users. 
@@ -44,10 +54,8 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 - is built with a clear purpose, to solve a problem
 - is adequately documented to enable others to follow the same path
 
-### Examples: 
-In an IDS Deployment Scenario, the definition of purpose (or the problem challenged/solved) is crucial. 
 
-For example: 
+#### An example 
 Implementor A implements a data space (consisting of open-source components) that allows secure and sovereign data sharing between educational institutions (high schools, professional training centres, universities) and relevant public bodies (employment agencies and municipalities). Let's assume that this data space provides data exchange between these parties, so that the public bodies can reduce the number of potentially unemployed people, to fight the unemployment in the country. 
 
 Then Implementor B can take this implementation, makes small modifications to tailor it to the needs of the tourism industry. In their case, the data space enables secure and sovereign data sharing between the hotels in tourism industry and public bodies. In this example, hotels provide various data sets (such as number of rooms booked, the average length of stay, the average room rate) with public bodies. Public bodies can use this data to analyze visitor demographics and travel patterns which allows them to make better decisions about tourism policies, investments, and promotions. 
@@ -63,14 +71,40 @@ Another possible approach is to use existing setups/technologies, such as a conn
 
 Both approaches are considered as IDS Deployment Scenarios, as both implementations involve the usage of IDS-compliant components that are deployed for a specific purpose to solve a challenge.
 
-#### 2.2.1 How to join to Deployment Scenarios? call to action
-Why should one share a deployment scenario? 
-Because we are in the early steps of the technology. 
+#### 2.2.1 How to join to Deployment Scenarios? 
+It's possible to contribute to the IDS Deployment Scenarios in two ways: 
 
-What advantages does it provide? More visibility, your experiment will be exposed to more people. Potential contributors.
+1️⃣ By sending a pull request via this repository (please be sure to check the [contribution guidelines](CONTRIBUTING.md)).
 
-### 2.3 Testbeds
-* list and describe the testbeds
+2️⃣ It can also be shared [via this form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu) for [the Data Space Radar](https://internationaldataspaces.org/adopt/data-space-radar/). The implementations that are at the pilot and live stages are considered as IDS Deployment Scenarios.
+
+
+#### 2.2.2 The Importance of Sharing Deployment Scenarios
+We are currently in the early stages of data spaces technology. Although the concept has been around for a few years, it is possible to say that it is still relatively new and underdeveloped. Data spaces offer a range of benefits, including improved collaboration, increased efficiency, and better decision-making. However, the technology is still evolving, and there are many challenges that need to be addressed, such as data privacy and security concerns, interoperability issues, and the need for standardized protocols. As a result, data spaces are still in the early-adoption phase, with only a minority exploring the technology's potential, and on the other hand, a vast majority looking for best practices.
+
+In all technologies in this early-adoption phase, sharing experiments and deployment scenarios play a crucial role in the technology's evolution. The sharing of best practices and deployment scenarios is particularly important in the case of data spaces, as it is a complex and evolving technology. Sharing deployment scenarios can help others learn from your experiences and avoid common mistakes. It can also facilitate the creation of standards and best practices, which can help drive the adoption and development of data spaces. By sharing their experiences and best practices, early adopters can help build a strong and collaborative community of data space practitioners, which will be critical to the success of this emerging technology.
+
+All in all, sharing a deployment scenario is an essential part of the open source philosophy, which is based on the idea that collaboration and sharing knowledge leads to better results. By sharing your deployment scenario, you simply allow others to learn from your experience and benefit from your insights, potentially saving them time and effort in their own deployment process.
+
+**Why Should I Share My Deployment Scenario with Others?**
+
+Sharing deployment scenarios with others can also have many advantages for the original implementor, including:
+
+
+- **Getting recognized**: Sharing deployment scenarios with others can help the original implementor get recognized for their work. By sharing their scenarios, they can showcase their expertise and demonstrate their ability to solve complex problems.
+
+- **Feedback and improvement**: When others use the deployment scenarios, they may provide feedback and suggest improvements. This can help the original implementor refine their work and make it even better.
+
+- **Collaboration**: Sharing deployment scenarios with others can foster collaboration and create a community of people who are interested in similar topics. This can lead to new partnerships, joint projects, and opportunities to learn from others.
+
+- **Feel good factor**: Sharing deployment scenarios with others can give the original implementor a sense of satisfaction and fulfillment. Knowing that their work is helping others and making a positive impact can be very rewarding.
+
+
+### 2.3 Testbeds (or IDS Testbeds)
+It is possible to view the IDS Testbed deployments through the [IDS Reference Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed#deployment-scenarios-based-on-ids-testbed) repository. This repository provides access to information on the different IDS Testbed deployments, including their specifications, configurations, and functionalities.
+
+It is important to note that what is referred to as Test Beds in the context of IDS are the deployments of the IDS Reference Test Bed (with or without modifications), and are not implemented or maintained by the International Data Spaces Association (IDSA). Instead, these Test Beds are deployed and maintained by third-party organizations that are interested in experimenting with IDS-based solutions. The IDSA provides guidance and support to these organizations to ensure that these Test Beds meet the required standards and specifications. By leveraging the IDS Testbed, organizations can gain valuable insights and experience in developing IDS-based solutions, and contribute to the advancement of this emerging technology.
+
 
 ## 3. IDS Assets & Relationships
 brief introduction, how to read this section
