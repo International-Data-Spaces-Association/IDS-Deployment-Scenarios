@@ -113,24 +113,37 @@ It is important to note that what is referred to as Test Beds in the context of 
 
 
 ## 3. IDS Assets & Relationships
-brief introduction, how to read this section
-* Relationship of IDSA Assets: How one can use them and at what stage of development? (End User Perspective)
-* Relationship of IDSA Assets: How do they interact with each other? (IDSA Perspective)
-* include cool figures from Anil and Christoph
+The IDSA offers a suite of assets to support organizations in their data space implementation journey. These assets play a vital role and are designed to work together to provide a comprehensive framework for secure and sovereign data sharing. Here you can expect on learning how (and where) to use IDS assets within your development journey.
 
+<img src="images/dataspace-implementation-and-IDS-Assets.png"  width="800" height="420">
 
 The five steps presented in the chart above are (1) Gather Knowledge, (2) Define Your Use Case, (3) Build Components, (4) Prepare for Go-Live, and (5) Share. This structured approach helps to provide a clear path for the user to follow, ensuring that they can access the necessary IDS assets to achieve their desired outcomes. This is also depicted on the [How to Build Data Spaces?](https://github.com/International-Data-Spaces-Association/idsa/tree/main/how-to-build-data-spaces) chapter in [IDSA repository](https://github.com/International-Data-Spaces-Association/idsa).
 
-- In the first step, **Gathering Knowledge**, the user is encouraged to learn about the IDS standards, IDS approach and available assets. 
+- The first step in the data space implementation journey is **Gathering Knowledge**. It is crucial for users to understand the IDS standards, approach, and available assets to develop a solid foundation for building a secure and trusted data exchange ecosystem. The IDSA offers a wide range of resources for users to learn about the IDS standards and approach, including the IDS Reference Architecture Model, IDS Rulebook, white papers, position papers, and other relevant publications and if needed choose from available IDS Trainings to gain a deeper understanding of the IDS standards and approach.
 
-- **Define Your Use Case** follows as the second step, where the user can explore different implementation possibilities and get inspired from existing best practices. 
 
-- **Build Components**, the third step, involves choosing the appropriate assets and integrating them into their project. 
+- **Define Your Use Case** follows as the second step, where the user can explore different implementation possibilities (via Data Space Radar and Use Case Brochure) to gain inspiration and learn about best practices in implementing data spaces. Both assets offer valuable resources for users in the data space implementation journey. By leveraging these resources, users can gain insights into emerging technologies, learn about best practices, and gain inspiration from successful implementations in various industries. As this step is about learning from experiences of others, IDS Deployment Scenarios acts as the bridge between this step and the next one, which is about building components.
 
-- **Testing**, the fourth step, involves ensuring the system functions correctly and meets the desired outcomes. 
+
+- **Build Components**, the third step, involves choosing the appropriate components and integrating them into the projects. Here, the user can start by checking the available deployment scenarios to get inspiration from them and learn from previous experiences of others. Apart from building everything from scratch, users have several options to realize their data space use case.
+
+Such as:
+- Having a quick start by using IDS Reference Testbed setup as a [MVDS (Minimum Viable Data Space)](https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/minimum-viable-data-space/MVDS.md)
+- Reusing an existing [IDS Deployment Scenario](https://github.com/International-Data-Spaces-Association/IDS-Deployment-Scenarios) (with or without modifications in it)
+- Opting to create from scratch by selecting various components available on the [IDSA Github](https://github.com/International-Data-Spaces-Association) and [Data Connector Report](https://internationaldataspaces.org/data-connector-report/). For more mature solutions, the [IDS Graduation Scheme](https://github.com/International-Data-Spaces-Association/idsa/blob/main/graduation_scheme/Projects.md) lists solutions that have undergone a through maturity evaluation process.
+- Use [IDS Base Camp](https://github.com/International-Data-Spaces-Association/IDS-BaseCamp) to have an industry-grade open-source infrastructure
+- Develop all the components from scratch, by following the technical specifications outlined on [IDS-G](https://github.com/International-Data-Spaces-Association/IDS-G)
+
+To achieve this goal, testing is typically carried out in a controlled environment, such as an IDS Testbed, where the system can be put through its paces in a simulated operational scenario. The use of such a test environment allows for more realistic testing of the system, including its performance, security, and scalability, among other factors.
+
+- **Testing**, the fourth step, involves various testing is crucial in ensuring that the developed system works as intended. This step involves conducting various tests to validate the behavior of components and ensure their interoperability. To conduct these tests, the user can leverage the [IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) for testing purposes.
+
 
 - Finally, in the fifth step, **Certification**, the user can achieve formal validation that their implementation adheres to IDS specifications and standards. 
 
-Overall, this chart serves as a useful tool to guide data space enthusiasts through the IDS ecosystem, providing a structured approach to utilizing its assets.
+
+
+<img src="images/development-journey-and-IDS-Assets.png"  width="800" height="382">
+
 
 ## Outlook and next steps
