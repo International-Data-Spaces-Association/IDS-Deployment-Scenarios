@@ -119,8 +119,7 @@ brief introduction, how to read this section
 * include cool figures from Anil and Christoph
 
 
-
-The five steps presented in the chart above are (1) Gather Knowledge, (2) Define Your Use Case, (3) Build Components, (4) Prepare for Go-Live, and (5) Share. This structured approach helps to provide a clear path for the user to follow, ensuring that they can access the necessary IDS assets to achieve their desired outcomes. This is also depicted on the How to Build Data Spaces? chapter in IDSA Github.
+The five steps presented in the chart above are (1) Gather Knowledge, (2) Define Your Use Case, (3) Build Components, (4) Prepare for Go-Live, and (5) Share. This structured approach helps to provide a clear path for the user to follow, ensuring that they can access the necessary IDS assets to achieve their desired outcomes. This is also depicted on the [How to Build Data Spaces?](https://github.com/International-Data-Spaces-Association/idsa/tree/main/how-to-build-data-spaces) chapter in [IDSA repository](https://github.com/International-Data-Spaces-Association/idsa).
 
 - In the first step, **Gathering Knowledge**, the user is encouraged to learn about the IDS standards, IDS approach and available assets. 
 
@@ -133,20 +132,5 @@ The five steps presented in the chart above are (1) Gather Knowledge, (2) Define
 - Finally, in the fifth step, **Certification**, the user can achieve formal validation that their implementation adheres to IDS specifications and standards. 
 
 Overall, this chart serves as a useful tool to guide data space enthusiasts through the IDS ecosystem, providing a structured approach to utilizing its assets.
-
-**City Analogy**
-The city analogy is a powerful and effective way to understand the concept, structure, functionality and role of data spaces. While highlighting the similarities between data spaces and physical cities, one can not only understand the key features and functions of data spaces in an easier way, but also can better understand how this technology will evolve in the future.
-
-Just as cities consist of many elements and zones such as residential areas, industrial zones and commercial zones, data spaces consist of components that fulfill the roles to enable secure and sovereign data exchange between parties. Like cities, data spaces are made up of different neighborhoods or domains, each with its own unique character and needs. For example, a manufacturing data space may have different requirements than a healthcare data space, and each domain may have its own data owners, data consumers, and service providers.
-
-Within each data space, there are rules and regulations that govern how data is accessed, used, and shared. Just as cities have laws and regulations that ensure the safety and well-being of their residents, data spaces have policies and protocols that ensure the security and privacy of data. These policies and protocols may vary across different data spaces and domains, depending on the needs and preferences of their stakeholders.
-
-Data spaces also have gateways or portals that connect them to other data spaces and domains, just as cities have transportation networks that connect them to other cities and regions. These gateways enable seamless data exchange and collaboration across different domains and industries, and enable stakeholders to leverage the strengths and resources of other data spaces.
-
-In addition to gateways, data spaces may also have marketplaces or platforms where stakeholders can buy, sell, or exchange data-based services, just as cities have markets and commercial districts where people can buy, sell, or trade goods and services.
-
-Like cities, data spaces are constantly evolving and adapting to changing needs and conditions. As new technologies and data sources emerge, data spaces may need to update their infrastructure, policies, and protocols to ensure that they remain relevant and effective.
-
-Just as cities are shaped by the people who live and work in them, data spaces are shaped by their stakeholders. The success of a data space depends on the willingness of its stakeholders to share and collaborate, and to create a vibrant and dynamic digital ecosystem that benefits everyone.
 
 ## Outlook and next steps
