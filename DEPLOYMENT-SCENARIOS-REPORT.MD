@@ -33,9 +33,8 @@ A Minimum Viable Data Space (MVDS) is a combination of components that enable th
 
 The IDSA Head Office provides the MVDS as a best practice for creating data spaces. At a minimum, an MVDS includes: 
 - Two connectors (one acting as a data provider, and one as a data consumer)
-- An identity provider (such as a certificate authority) 
-- and a DAPS (Dynamic Attribute Provisioning Service) (DAPS) 
-- Additional components, such as a metadata broker, an app store, a clearing house, or a vocabulary provider, can be added to the MVDS to extend its functionality and enable more advanced features, such as searching for data sets. The MVDS provides a starting point for experimenters to create a functional data space that can be customized and expanded as needed to meet specific requirements.
+- An identity provider (Dynamic Attribute Provisioning Service, Certificate Authority)
+- Optional/Additional components, such as a metadata broker, an app store, a clearing house, or a vocabulary provider, can be added to the MVDS to extend its functionality and enable more advanced features, such as searching for data sets. The MVDS provides a starting point for experimenters to create a functional data space that can be customized and expanded as needed to meet specific requirements.
 
 ## 2. Foundation - Terms and Definitions
 [IDS Glossary](https://github.com/International-Data-Spaces-Association/IDS-G/tree/main/Glossary) that is under [IDS-G](https://github.com/International-Data-Spaces-Association/IDS-G) repository acts as the ultimate source of truth for terms and definitions. 
