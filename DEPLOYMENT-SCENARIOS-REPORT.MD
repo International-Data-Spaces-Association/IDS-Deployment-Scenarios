@@ -16,7 +16,7 @@ According to the definition by International Data Spaces Association (IDSA), a d
 
 ![Data Sharing in a Data Space](/images/IDSA-Infographic-Data-Sharing-in-a-Data-Space.jpg)
 
-
+As depicted simply on the infographic above, IDS-compliant data space consists of mandatory and optional components such as IDS Connectors, Identity Provider, Broker, App Store, Clearing House, and Vocabulary Provider. These could also be considered as roles that are must-have in a data space.
 
 #### 1.4 Connectors
 The [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) offers a comprehensive documentation of all currently existing data connector implementations, providing valuable insights into their present state of development and usage. 
