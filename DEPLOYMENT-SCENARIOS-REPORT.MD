@@ -14,12 +14,19 @@ The International Data Spaces standard enables cross-company business processes 
 #### 1.3 Technically speaking, what is a data space?
 According to the definition by International Data Spaces Association (IDSA), a data space is the environment where data from different sources can be collected, processed, and shared in a secure and sovereign fashion. A data space allows exchange and processing of data between different organizations, systems, and applications.
 
-Technically, an IDS-compliant data space consists of a set of interconnected components that enable various interactions with data: such as data exchange, storage, processing, and analysis. These components include data providers, data consumers, data processors, and data controllers. The data space is designed to support the secure and reliable exchange of data, with a strong focus on data privacy and security. It provides a range of functionalities, such as data access control, data sharing agreements, data processing workflows, and data quality assurance. The IDSA has developed a set of standards and specifications for data spaces, which aim to ensure interoperability and compatibility between different data spaces and systems.
 ![Data Sharing in a Data Space](/images/IDSA-Infographic-Data-Sharing-in-a-Data-Space.jpg)
 
+
+
 #### 1.4 Connectors
-Connector report
-Graduation Scheme table
+The [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) offers a comprehensive documentation of all currently existing data connector implementations, providing valuable insights into their present state of development and usage. 
+
+**Relationship between Data Connector Report and IDS Deployment Scenarios**
+
+The relationship between [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) can be used as a reference and a starting point for IDS Deployment Scenarios. For example, if a deployment scenario requires a data connector, the report can be consulted to determine which data connector implementation to use based on its present state of development and usage. Similarly, the deployment scenario can provide valuable feedback on the usage of the data connector, helping to inform future updates and improvements to the Data Connector Report.
+
+Data Connector Report and IDS Deployment Scenarios are complementary resources that support the development and implementation of the IDS standard. The report provides a comprehensive overview of data connector implementations, while deployment scenarios outline the steps and processes involved in delivering IDS components to end-users. Together, these resources help ensure the consistency, efficiency and applicability of IDS standard to tackle challenges related to secure and sovereign data exchange. Another source that could be consulted would be [IDS Graduation Scheme](https://github.com/International-Data-Spaces-Association/idsa/tree/main/graduation_scheme) listing the [projects](https://github.com/International-Data-Spaces-Association/idsa/blob/main/graduation_scheme/Projects.md) (either as sole components or set of components) that have an adequate level of maturity.
+
 
 #### 1.5 MVDS, what are the services we need?
 A Minimum Viable Data Space (MVDS) is a combination of components that enable the creation of a data space with just enough features to be usable for secure and sovereign data exchange, as specified by the International Data Spaces Association (IDSA). The goal of an MVDS is to streamline the implementation process, making it easier and faster for experimenters to create a working data space with secure and sovereign data exchange. By starting with an MVDS, the development team can iterate quickly and respond to the requirements of the data space, making adjustments as necessary to meet the needs of users.
