@@ -120,7 +120,7 @@ brief introduction, how to read this section
 
 
 
-The five steps presented in the chart are Gather Knowledge, Define Your Use Case, Build Components, Prepare for Go-Live, and Share. This structured approach helps to provide a clear path for the user to follow, ensuring that they can access the necessary IDS assets to achieve their desired outcomes.
+The five steps presented in the chart above are (1) Gather Knowledge, (2) Define Your Use Case, (3) Build Components, (4) Prepare for Go-Live, and (5) Share. This structured approach helps to provide a clear path for the user to follow, ensuring that they can access the necessary IDS assets to achieve their desired outcomes. This is also depicted on the How to Build Data Spaces? chapter in IDSA Github.
 
 - In the first step, **Gathering Knowledge**, the user is encouraged to learn about the IDS standards, IDS approach and available assets. 
 
