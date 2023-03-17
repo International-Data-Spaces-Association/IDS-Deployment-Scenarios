@@ -118,6 +118,22 @@ brief introduction, how to read this section
 * Relationship of IDSA Assets: How do they interact with each other? (IDSA Perspective)
 * include cool figures from Anil and Christoph
 
+
+
+The five steps presented in the chart are Gather Knowledge, Define Your Use Case, Build Components, Prepare for Go-Live, and Share. This structured approach helps to provide a clear path for the user to follow, ensuring that they can access the necessary IDS assets to achieve their desired outcomes.
+
+- In the first step, **Gathering Knowledge**, the user is encouraged to learn about the IDS standards, IDS approach and available assets. 
+
+- **Define Your Use Case** follows as the second step, where the user can explore different implementation possibilities and get inspired from existing best practices. 
+
+- **Build Components**, the third step, involves choosing the appropriate assets and integrating them into their project. 
+
+- **Testing**, the fourth step, involves ensuring the system functions correctly and meets the desired outcomes. 
+
+- Finally, in the fifth step, **Certification**, the user can achieve formal validation that their implementation adheres to IDS specifications and standards. 
+
+Overall, this chart serves as a useful tool to guide data space enthusiasts through the IDS ecosystem, providing a structured approach to utilizing its assets.
+
 **City Analogy**
 The city analogy is a powerful and effective way to understand the concept, structure, functionality and role of data spaces. While highlighting the similarities between data spaces and physical cities, one can not only understand the key features and functions of data spaces in an easier way, but also can better understand how this technology will evolve in the future.
 
