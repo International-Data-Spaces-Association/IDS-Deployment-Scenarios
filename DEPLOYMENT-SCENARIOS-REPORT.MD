@@ -37,19 +37,32 @@ Moreover, the IDS Testbed is also a great place to start preparing for IDS certi
 In addition to testing and certification, the IDS Testbed can also serve as a starting point for creating data spaces. The testbed provides a framework for organizations to begin building their own data spaces with confidence. By ensuring interoperability and compatibility between various components, organizations can have a solid foundation upon which to build their data spaces. The IDS Testbed is a powerful tool that enables organizations to develop, test, and certify components and data spaces that adhere to the IDS specifications and work seamlessly with other IDS components.
 
 ### 2.2 IDS Deployment Scenarios
-An IDS deployment scenario is a description of the steps and processes involved in delivering a component or a set of components to end-users. It outlines the various stages of deployment, from development and testing to release and optionally maintenance. The scenario typically includes information on the prerequisites (such as hardware and software requirements), configuration settings, and any necessary third-party integrations. It also includes details on the deployment environment, such as whether it will be installed on-premises or in the cloud, and how the system will be monitored and supported once it is live. A deployment scenario helps ensure that the deployment process is consistent, easily repeatable, reusable and efficient, and that the system is deployed in a way that meets the needs of end-users.
+An IDS deployment scenario is a description of the steps and processes involved in delivering a component or a set of components to end-users. It outlines the various stages of deployment, from development and testing to release and optionally maintenance. The scenario typically includes information on the prerequisites (such as hardware and software requirements), configuration settings, and any necessary third-party integrations. It also includes details on the deployment environment, such as whether it will be installed on-premises or in the cloud, and how the system will be monitored and supported once it is live. A deployment scenario helps ensure that the deployment process is consistent, easily repeatable, reusable and efficient, and that the system is deployed in a way that meets the needs of end-users. 
 
-In an IDS Deployment Scenario, the definition of purpose (or the problem challenged/solved) is crucial. For example: 
-Implementor A implements a data space (consisting of open-source components) that allows secure and sovereign data sharing between educational institutions (high schools, professional training centres, universities) and relevant public bodies (employment agencies and municipalities). Let's assume that this data space provides data exchange between these parties, so that the public bodies can reduce the number of potentially unemployed people, to fight unemployment in the country. 
+A deployment scenario can be considered as any implementation made with IDS-compliant components:
+- that allows sovereign data sharing (as defined by IDSA)
+- is built with a clear purpose, to solve a problem
+- is adequately documented to enable others to follow the same path
 
-Then Implementor B comes and takes this implementation, makes small modifications to tailor it to the needs of the tourism industry. In their case, the data space enables secure and sovereign data sharing between the hotels in tourism industry and public bodies. In this example, hotels provide various data sets (such as number of rooms booked, the average length of stay, the average room rate) with public bodies. Public bodies can use this data to analyze visitor demographics and travel patterns which allows them to make better decisions about tourism policies, investments, and promotions. 
+### Examples: 
+In an IDS Deployment Scenario, the definition of purpose (or the problem challenged/solved) is crucial. 
 
-This is a good example of two IDS Deployment Scenarios. Even if both setups consist of very similar components, the difference in purpose and area of use makes them two different deployment scenarios.
+For example: 
+Implementor A implements a data space (consisting of open-source components) that allows secure and sovereign data sharing between educational institutions (high schools, professional training centres, universities) and relevant public bodies (employment agencies and municipalities). Let's assume that this data space provides data exchange between these parties, so that the public bodies can reduce the number of potentially unemployed people, to fight the unemployment in the country. 
 
-* differentiate between
-  * complex technologic additions
-  * "just" usage of technologies, like a connector being used by an organization in projects, for various purposes
-  
+Then Implementor B can take this implementation, makes small modifications to tailor it to the needs of the tourism industry. In their case, the data space enables secure and sovereign data sharing between the hotels in tourism industry and public bodies. In this example, hotels provide various data sets (such as number of rooms booked, the average length of stay, the average room rate) with public bodies. Public bodies can use this data to analyze visitor demographics and travel patterns which allows them to make better decisions about tourism policies, investments, and promotions. 
+
+This is a good example that lead to the creation of two IDS Deployment Scenarios. Even if both setups consist of very similar components, the difference in purpose and area of use makes them two different deployment scenarios.
+
+![](images/IDS-Deployment-Scenarios-Patterns.png)
+As depicted on the image above, there are several ways to create a deployment scenario. As long as the implementation is made for a purpose and contains an IDS-compliant component, it can be considered as an IDS Deployment Scenario. 
+
+IDS deployment scenarios can be made for different purposes depending on the needs of an organization. One possible approach is to add complex technological additions that require developing a component from scratch or adapting an existing component to serve a specific purpose. This method is useful when an organization has specific data sharing requirements that cannot be met by already existing IDS solutions. For example, an organization may require an IDS component to comply with specific industry regulations or to provide additional security measures for sensitive data. In such cases, a custom IDS component can be developed (or altered) to meet these requirements.
+
+Another possible approach is to use existing setups/technologies, such as a connector being used by an organization in projects (or a different context) for various purposes. This method is useful when an organization already has existing data sharing practices and wants to integrate with IDS without having to make significant changes to their current systems. For example, an organization may have an existing data exchange platform that already meets their data sharing requirements. In such cases, the IDS can be integrated with the existing platform using one or more components to enable secure and sovereign data sharing, as defined by IDSA. 
+
+Both approaches are considered as IDS Deployment Scenarios, as both implementations involve the usage of IDS-compliant components that are deployed for a specific purpose to solve a challenge.
+
 #### 2.2.1 How to join to Deployment Scenarios? call to action
 Why should one share a deployment scenario? 
 Because we are in the early steps of the technology. 
