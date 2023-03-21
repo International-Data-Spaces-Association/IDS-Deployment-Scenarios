@@ -4,34 +4,45 @@
 
 ### 1.1 What is a Data Space?
 
-According to the definition by IDSA, a data space is a secure and standardized digital infrastructure that enables trusted data exchange and data-based services among various stakeholders. In the IDS definition, a data space is a virtual space that provides a standardized framework for data exchange, based on common protocols and formats, as well as secure and trusted data sharing mechanisms. The IDS data space is designed to support data sovereignty, meaning that data owners retain control over their data and can determine who has access to it and under what conditions.
+A data space is a secure and standardized digital infrastructure that enables trusted data exchange and data-based services among various stakeholders. In the IDS definition, a data space is a virtual space that provides a standardized framework for data exchange, based on common protocols and formats, as well as secure and trusted data sharing mechanisms. The IDS data space is designed to support data sovereignty, meaning that data owners retain control over their data and can determine who can use it and under what conditions. This is called Data Sovereignty.
 
 The IDS data space is intended to support a wide range of applications and industries. The data space is designed to be interoperable with other data spaces, enabling seamless data exchange across different domains and industries. Overall, the IDS data space is a flexible and scalable domain and technology-agnostic framework that enables secure and trusted data exchange and services, while preserving data sovereignty and privacy.
 
 ### 1.2 What are cool use cases and why do we need data spaces?
 
-The International Data Spaces standard enables cross-company business processes known as use cases. These use cases play a crucial role in identifying, analyzing, and evaluating user requirements for IDS. Moreover, by implementing a use case, companies can foster innovation and create an ecosystem by involving internal and external stakeholders in the development of smart value-added services. Use cases serve as the fuel for data spaces, which act as the engine. They facilitate and expedite the creation of cross-domain and cross-country data spaces with numerous participants.
-[Data Spaces Overview](https://internationaldataspaces.org/wp-content/uploads/dlm_uploads/Data_Spaces_Radar_Web_230307.pdf) brochure that is available via [Most Important Documents](https://internationaldataspaces.org/publications/most-important-documents/) page of IDSA Website lists the use cases along with the challenges they are tackling, the success stories behind and the components used in each scenario to enable data sharing in a secure and sovereign way. This document gets updated on an annual basis.
+Based on the [IDS-RAM](https://docs.internationaldataspaces.org/ids-ram-4/), Dataspaces enable cross-company business processes known as use cases. These use cases play a crucial role in identifying, analyzing, and evaluating user requirements for IDS. Moreover, by implementing a use case, companies can foster innovation and create an ecosystem by involving internal and external stakeholders in the development of smart value-added services. Use cases serve as the fuel for data spaces, which act as the engine. They facilitate and expedite the creation of cross-domain and cross-country data spaces with numerous participants.
+
+The [Data Spaces Overview](https://internationaldataspaces.org/wp-content/uploads/dlm_uploads/Data_Spaces_Radar_Web_230307.pdf) brochure, which is available via [Most Important Documents](https://internationaldataspaces.org/publications/most-important-documents/) page of IDSA Website lists the use cases along with the challenges they are tackling, the success stories behind and the components used in each scenario to enable data sharing in a secure and sovereign way. This document gets updated on an annual basis.
+
+All listed use cases address the need for sharing data while maintaing data sovereigtny. While the Data Spaces Overview provides an overview on the business related needs, this report shall investigate the technical aspects of those soltutions to interoperability and data sovereigtny.
 
 ### 1.3 Technically speaking, what is a data space?
 
-According to the definition by International Data Spaces Association (IDSA), a data space is the environment where data from different sources can be collected, processed, and shared in a secure and sovereign fashion. A data space allows exchange and processing of data between different organizations, systems, and applications.
+A data space is the environment where data from different sources can be collected, processed, and shared in a secure and sovereign fashion. A data space allows exchange and processing of data between different organizations, systems, and applications.
 
 ![Data Sharing in a Data Space](/images/IDSA-Infographic-Data-Sharing-in-a-Data-Space.jpg)
 
-As depicted simply on the infographic above, IDS-compliant data space consists of mandatory and optional components such as IDS Connectors, Identity Provider, Broker, App Store, Clearing House, and Vocabulary Provider. These could also be considered as roles that are must-have in a data space. All these components and their roles in a IDS-compliant data space, are provided in more detail within [IDS Reference Architecture Model](https://docs.internationaldataspaces.org/ids-ram-4/).
+As depicted simply on the infographic above, IDS-compliant data space consists of mandatory and optional components such as IDS Connectors, Identity Provider, Meta-Data-Broker, App Store, Clearing House, and Vocabulary Provider. These could also be considered as roles that are must-have in a data space. All these components and their roles in a IDS-compliant data space, are provided in more detail within [IDS Reference Architecture Model](https://docs.internationaldataspaces.org/ids-ram-4/).
+
+The compliance to the rules, concepts and specification of the [Reference Architecture Model](https://docs.internationaldataspaces.org/ids-ram-4/), is verified against the [IDS-Reference-Testbed](#21-ids-reference-testbed) and subject to Certification. The [IDSA Rulebook](https://docs.internationaldataspaces.org/idsa-rulebook-v2/) discusses the functional requirements of IDS Dataspaces. Those artifacts are subject of the [IDSA Magic Triangle](https://docs.internationaldataspaces.org/ids-ram-4/introduction/1_1_goals_of_the_international_data_spaces/1_3_relation_to_other_assets).
+
+![IDSA Magic Triangle](./images/MagicTriangle.png)
 
 ### 1.4 Connectors
 
-The [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) offers a comprehensive documentation of all currently existing data connector implementations, providing valuable insights into their present state of development and usage.
+Dataspace Connectors are the tool for each participant in a Dataspace to exchange and share data. They enable technical and semantical interoperability and put the data subject in the control of the data usage in the means of access to and usage of data. As different Dataspaces have different requirments, each organization and use case have different requirements. Given that, different Dataspace Connector implementations evolved and will evolve.
 
-**Relationship between Data Connector Report and IDS Deployment Scenarios**
+![Data Subject in control of data](./images/DataSubjectControl.png)
+
+To address this evolving landscape of Dataspace Connectors, the [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) offers a comprehensive documentation of all currently existing data connector implementations, providing valuable insights into their present state of development and usage.
+
+### 1.5 Relationship between Data Connector Report and IDS Deployment Scenarios**
 
 The relationship between [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) can be used as a reference and a starting point for IDS Deployment Scenarios. For example, if a deployment scenario requires a data connector, the report can be consulted to determine which data connector implementation to use based on its present state of development and usage. Similarly, the deployment scenario can provide valuable feedback on the usage of the data connector, helping to inform future updates and improvements to the Data Connector Report.
 
 Data Connector Report and IDS Deployment Scenarios are complementary resources that support the development and implementation of the IDS standard. The report provides a comprehensive overview of data connector implementations, while deployment scenarios outline the steps and processes involved in delivering IDS components to end-users. Together, these resources help ensure the consistency, efficiency and applicability of IDS standard to tackle challenges related to secure and sovereign data exchange. Another source that could be consulted would be [IDS Graduation Scheme](https://github.com/International-Data-Spaces-Association/idsa/tree/main/graduation_scheme) listing the [projects](https://github.com/International-Data-Spaces-Association/idsa/blob/main/graduation_scheme/Projects.md) (either as sole components or set of components) that have an adequate level of maturity.
 
-### 1.5 MVDS, what are the services we need?
+### 1.6 Minimum Viable Data Spaces: what are the services we need?
 
 A Minimum Viable Data Space (MVDS) is a combination of components that enable the creation of a data space with just enough features to be usable for secure and sovereign data exchange, as specified by the International Data Spaces Association (IDSA). The goal of an MVDS is to streamline the implementation process, making it easier and faster for experimenters to create a working data space with secure and sovereign data exchange. By starting with an MVDS, the development team can iterate quickly and respond to the requirements of the data space, making adjustments as necessary to meet the needs of users.
 
@@ -39,24 +50,25 @@ The IDSA Head Office provides the MVDS as a best practice for creating data spac
 
 - Two connectors (one acting as a data provider, and one as a data consumer)
 - An identity provider (Dynamic Attribute Provisioning Service, Certificate Authority)
-- Optional/Additional components, such as a metadata broker, an app store, a clearing house, or a vocabulary provider, can be added to the MVDS to extend its functionality and enable more advanced features, such as searching for data sets. The MVDS provides a starting point for experimenters to create a functional data space that can be customized and expanded as needed to meet specific requirements.
+- Optional and additional components, such as a metadata broker, an app store, a clearing house, or a vocabulary provider, can be added to the MVDS to extend its functionality and enable more advanced features, such as searching for data sets. The MVDS provides a starting point for experimenters to create a functional data space that can be customized and expanded as needed to meet specific requirements.
 
 ## 2. Foundation - Terms and Definitions
 
 [IDS Glossary](https://github.com/International-Data-Spaces-Association/IDS-G/tree/main/Glossary) that is under [IDS-G](https://github.com/International-Data-Spaces-Association/IDS-G) repository acts as the ultimate source of truth for terms and definitions.
 
-- there are different things to be known before
-- what do you want to do
-  - Testing for validation
-  - testing for playing around
-  - testing for extension
-  - providing services
+The actual deployment of Dataspace components may be guided by different needs and shall fulfil different goals. This depends on the maturity of the use case, the maturity of the components, the desired outcome and more. Before starting, this should be clarified:
 
+  - Do you use the technical setup for validation of components?
+  - Do you plan to experiment and the use technical setup as a playground
+  - Do you plan to extend the given functionality with additionla components or plan to make changes to exiting components?
+  - Do you plan to provide Dataspace services in a commercial offering?
+
+Depending on the scope of your work, different resources are available to support you in the process and provide your insights into the community. 
 ### 2.1 IDS Reference Testbed
 
-[IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) is an invaluable tool for ensuring that components conform to the IDS specifications for connection and communication. It is a setup that utilizes Open Source IDS components and enables organizations to verify that their own components work interoperably with other IDS components within the testbed. The testbed provides organizations with the ability to conduct component behavior testing and interoperability testing against various IDS components (such as the Connector, DAPS, CA, and Metadata Broker).
+The [IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) is an invaluable tool for ensuring that components conform to the IDS specifications for connection and communication. It is a setup that utilizes Open Source IDS components and enables organizations to verify that their own components work interoperably with other IDS components within the testbed. The testbed provides organizations with the ability to conduct component behavior testing and interoperability testing against various IDS components (such as the Connector, DAPS, CA, and Metadata Broker).
 
-Moreover, the IDS Reference Testbed is also a great place to start preparing for IDS certification. By utilizing the testbed, organizations can thoroughly test their components and ensure that they meet the necessary requirements for IDS certification. The testbed can help organizations identify any issues with their components before they are certified, thereby minimizing any potential disruptions during the certification process.
+Moreover, the IDS Reference Testbed is also a great place to start preparing for IDS certification. By utilizing the testbed, organizations can thoroughly test their components and ensure that they meet the necessary requirements for IDS certification. The testbed can help organizations identify any issues with their components before they are certified, thereby minimizing any potential disruptions during the certification process as the IDS Reference Testbed is used by Evaluation Facilities to validate compliance in the IDS Certification.
 
 In addition to testing and certification, the IDS Reference Testbed can also serve as a starting point for creating data spaces. The testbed provides a framework for organizations to begin building their own data spaces with confidence. By ensuring interoperability and compatibility between various components, organizations can have a solid foundation upon which to build their data spaces. The IDS Reference Testbed is a powerful tool that enables organizations to develop, test, and certify components and data spaces that adhere to the IDS specifications and work seamlessly with other IDS components.
 
@@ -69,6 +81,8 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 - that allows sovereign data sharing (as defined by IDSA)
 - is built with a clear purpose, to solve a problem
 - is adequately documented to enable others to follow the same path
+
+or to showcase potential improvements, changes or new feature to the IDS.
 
 #### 2.2.1 An example
 
@@ -120,7 +134,15 @@ Sharing deployment scenarios with others can also have many advantages for the o
 
 It is possible to view the IDS Testbed deployments through the [IDS Reference Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed#deployment-scenarios-based-on-ids-testbed) repository. This repository provides access to information on the different IDS Testbed deployments, including their specifications, configurations, and functionalities.
 
-It is important to note that what is referred to as Test Beds in the context of IDS are the deployments of the IDS Reference Test Bed (with or without modifications), and are not implemented or maintained by the International Data Spaces Association (IDSA). Instead, these Test Beds are deployed and maintained by third-party organizations that are interested in experimenting with IDS-based solutions. The IDSA provides guidance and support to these organizations to ensure that these Test Beds meet the required standards and specifications. By leveraging the IDS Testbed, organizations can gain valuable insights and experience in developing IDS-based solutions, and contribute to the advancement of this emerging technology.
+It is important to note that what is referred to as Testbeds in the context of IDS are the deployments of the IDS Reference Test Bed (with or without modifications), and are not implemented or maintained by the International Data Spaces Association (IDSA). Instead, these Test Beds are deployed and maintained by third-party organizations that are interested in experimenting with IDS-based solutions. The IDSA provides guidance and support to these organizations to ensure that these Test Beds meet the required standards and specifications. By leveraging the IDS Testbed, organizations can gain valuable insights and experience in developing IDS-based solutions, and contribute to the advancement of this emerging technology.
+
+### 2.4 Summary
+
+Depending on the scope and goal of work with techncial Dataspace setups, different resources are availabel and different terms are used:
+
+- The IDS-Reference-Testbed is used for the validation of compliance in IDS Certification.
+- Deployment Scenarios are descriptions and source code, which illustrates the practical use to solve a certain problem.
+- IDS-testbeds are Dataspace components provided as a service for experimentation or in commercial use.
 
 ## 3. IDS Assets & Relationships
 
@@ -153,4 +175,8 @@ To achieve this goal, testing is typically carried out in a controlled environme
 <img src="images/development-journey-and-IDS-Assets.png"  width="800" height="382">
 The chart above illustrates the various assets involved in the system development journey and how they interact with each other. It shows how these IDS assets, such as the development environment, the testing framework, and the certification process, support the development journey and contribute to the successful deployment of the system.
 
-## Outlook and next steps
+## 4. Selected Dataspace testbeds and deployment scenarios
+
+> List cool examples here
+
+## 5. Outlook and next steps
