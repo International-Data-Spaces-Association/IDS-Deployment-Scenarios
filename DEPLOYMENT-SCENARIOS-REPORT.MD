@@ -63,7 +63,8 @@ The actual deployment of Dataspace components may be guided by different needs a
   - Do you plan to extend the given functionality with additionla components or plan to make changes to exiting components?
   - Do you plan to provide Dataspace services in a commercial offering?
 
-Depending on the scope of your work, different resources are available to support you in the process and provide your insights into the community. 
+Depending on the scope of your work, different resources are available to support you in the process and provide your insights into the community.
+
 ### 2.1 IDS Reference Testbed
 
 The [IDS Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed) is an invaluable tool for ensuring that components conform to the IDS specifications for connection and communication. It is a setup that utilizes Open Source IDS components and enables organizations to verify that their own components work interoperably with other IDS components within the testbed. The testbed provides organizations with the ability to conduct component behavior testing and interoperability testing against various IDS components (such as the Connector, DAPS, CA, and Metadata Broker).
@@ -72,7 +73,13 @@ Moreover, the IDS Reference Testbed is also a great place to start preparing for
 
 In addition to testing and certification, the IDS Reference Testbed can also serve as a starting point for creating Dataspaces. The testbed provides a framework for organizations to begin building their own Dataspaces with confidence. By ensuring interoperability and compatibility between various components, organizations can have a solid foundation upon which to build their Dataspaces. The IDS Reference Testbed is a powerful tool that enables organizations to develop, test, and certify components and Dataspaces that adhere to the IDS specifications and work seamlessly with other IDS components.
 
-### 2.2 IDS Deployment Scenarios
+### 2.2 IDS Testbeds
+
+It is possible to view the IDS Testbed deployments through the [IDS Reference Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed#deployment-scenarios-based-on-ids-testbed) repository. This repository provides access to information on the different IDS Testbed deployments, including their specifications, configurations, and functionalities.
+
+It is important to note that what is referred to as Testbeds in the context of IDS are the deployments of the IDS Reference Test Bed (with or without modifications), and are not implemented or maintained by the International Dataspaces Association (IDSA). Instead, these Test Beds are deployed and maintained by third-party organizations that are interested in experimenting with IDS-based solutions. The IDSA provides guidance and support to these organizations to ensure that these Test Beds meet the required standards and specifications. By leveraging the IDS Testbed, organizations can gain valuable insights and experience in developing IDS-based solutions, and contribute to the advancement of this emerging technology.
+
+### 2.3 IDS Deployment Scenarios
 
 An IDS deployment scenario is a description of the steps and processes involved in delivering a component or a set of components to end-users. It outlines the various stages of deployment, from development and testing to release and optionally maintenance. The scenario typically includes information on the prerequisites (such as hardware and software requirements), configuration settings, and any necessary third-party integrations. It also includes details on the deployment environment, such as whether it will be installed on-premises or in the cloud, and how the system will be monitored and supported once it is live. A deployment scenario helps ensure that the deployment process is consistent, easily repeatable, reusable and efficient, and that the system is deployed in a way that meets the needs of end-users.
 
@@ -84,7 +91,7 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 
 or to showcase potential improvements, changes or new feature to the IDS.
 
-#### 2.2.1 An example
+#### An example
 
 Implementor A implements a Dataspace (consisting of open-source components) that allows secure and sovereign data sharing between educational institutions (high schools, professional training centres, universities) and relevant public bodies (employment agencies and municipalities). Let's assume that this Dataspace provides data exchange between these parties, so that the public bodies can reduce the number of potentially unemployed people, to fight the unemployment in the country.
 
@@ -100,9 +107,9 @@ IDS deployment scenarios can be made for different purposes depending on the nee
 
 Another possible approach is to use existing setups/technologies, such as a connector being used by an organization in projects (or a different context) for various purposes. This method is useful when an organization already has existing data sharing practices and wants to integrate with IDS without having to make significant changes to their current systems. For example, an organization may have an existing data exchange platform that already meets their data sharing requirements. In such cases, the IDS can be integrated with the existing platform using one or more components to enable secure and sovereign data sharing, as defined by IDSA.
 
-Both approaches are considered as IDS Deployment Scenarios, as both implementations involve the usage of IDS-compliant components that are deployed for a specific purpose to solve a challenge.
+Both approaches could be considered as IDS Deployment Scenarios, as both implementations involve the usage of IDS-compliant components that are deployed for a specific purpose to solve a challenge.
 
-#### 2.2.2 How to join to Deployment Scenarios?
+#### How to join to Deployment Scenarios?
 
 It's possible to contribute to the IDS Deployment Scenarios in two ways:
 
@@ -110,8 +117,7 @@ It's possible to contribute to the IDS Deployment Scenarios in two ways:
 
 2️⃣ It can also be shared [via this form](https://forms.office.com/Pages/ResponsePage.aspx?id=NNZGs_usx0K9RPFVfuibG3WVHeFvj2hHgjU7ZCgshUhUMExMOTdCWDNMSERJTjlIUlRKMVc0QTUxMCQlQCN0PWcu) for [the Dataspace Radar](https://internationaldataspaces.org/adopt/data-space-radar/). The implementations that are at the pilot and live stages are considered as IDS Deployment Scenarios.
 
-#### 2.2.3 The Importance of Sharing Deployment Scenarios
-
+#### Why is it important to share Deployment Scenarios?
 We are currently in the early stages of Dataspaces technology. Although the concept has been around for a few years, it is possible to say that it is still relatively new and underdeveloped. Dataspaces offer a range of benefits, including improved collaboration, increased efficiency, and better decision-making. However, the technology is still evolving, and there are many challenges that need to be addressed, such as data privacy and security concerns, interoperability issues, and the need for standardized protocols. As a result, Dataspaces are still in the early-adoption phase, with only a minority exploring the technology's potential, and on the other hand, a vast majority looking for best practices.
 
 In all technologies in this early-adoption phase, sharing experiments and deployment scenarios play a crucial role in the technology's evolution. The sharing of best practices and deployment scenarios is particularly important in the case of Dataspaces, as it is a complex and evolving technology. Sharing deployment scenarios can help others learn from your experiences and avoid common mistakes. It can also facilitate the creation of standards and best practices, which can help drive the adoption and development of Dataspaces. By sharing their experiences and best practices, early adopters can help build a strong and collaborative community of Dataspace practitioners, which will be critical to the success of this emerging technology.
@@ -130,15 +136,15 @@ Sharing deployment scenarios with others can also have many advantages for the o
 
 - **Feel good factor**: Sharing deployment scenarios with others can give the original implementor a sense of satisfaction and fulfillment. Knowing that their work is helping others and making a positive impact can be very rewarding.
 
-### 2.3 IDS Testbeds
+### 2.4 IDS Basecamp
+[IDS Basecamp](https://github.com/International-Data-Spaces-Association/IDS-BaseCamp) is an open-source solution offered by IDSA Head Office, that aims to help organizations agilely initiate an industry-ready data space for secure and sovereign data sharing, as defined by IDSA. Compared to the MVDS, which is -from a technical perspective- a reuse of IDS Reference Testbed for initiating a dataspace in a minimal working state, [IDS Basecamp](https://github.com/International-Data-Spaces-Association/IDS-BaseCamp) has a higher level of maturity. This industry-ready solution is built using pre-existing IDS components, which means that it can be deployed rapidly without requiring extensive custom development work. Its positioning within the other IDS assets is depicted in the next chapter. As explained there, an organization interested in establishing an IDS-compliant dataspace can either (1) initiate a custom implementation, or (2) use IDS Reference Testbed as a MVDS, or (3)use IDS Basecamp to have a more mature starting point.
 
-It is possible to view the IDS Testbed deployments through the [IDS Reference Testbed](https://github.com/International-Data-Spaces-Association/IDS-testbed#deployment-scenarios-based-on-ids-testbed) repository. This repository provides access to information on the different IDS Testbed deployments, including their specifications, configurations, and functionalities.
+Overall, IDS Basecamp is a solution that is well-suited to organizations looking to quickly establish a secure and sovereign data sharing environment. By leveraging the existing IDS components, organizations can significantly reduce the time and effort required to create a trustworthy data space that enables them maintain control, security and sovereignty over their data. 
 
-It is important to note that what is referred to as Testbeds in the context of IDS are the deployments of the IDS Reference Test Bed (with or without modifications), and are not implemented or maintained by the International Dataspaces Association (IDSA). Instead, these Test Beds are deployed and maintained by third-party organizations that are interested in experimenting with IDS-based solutions. The IDSA provides guidance and support to these organizations to ensure that these Test Beds meet the required standards and specifications. By leveraging the IDS Testbed, organizations can gain valuable insights and experience in developing IDS-based solutions, and contribute to the advancement of this emerging technology.
 
-### 2.4 Summary
+### 2.5 Summary
 
-Depending on the scope and goal of work with techncial Dataspace setups, different resources are availabel and different terms are used:
+Depending on the scope and goal of work with techncial Dataspace setups, different resources are available and different terms are used:
 
 - The IDS-Reference-Testbed is used for the validation of compliance in IDS Certification.
 - Deployment Scenarios are descriptions and source code, which illustrates the practical use to solve a certain problem.
@@ -178,6 +184,5 @@ The chart above illustrates the various assets involved in the system developmen
 
 ## 4. Selected Dataspace testbeds and deployment scenarios
 
-> List cool examples here
 
 ## 5. Outlook and next steps
