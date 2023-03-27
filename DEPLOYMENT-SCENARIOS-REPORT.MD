@@ -36,7 +36,7 @@ Dataspace Connectors are the tool for each participant in a Dataspace to exchang
 
 To address this evolving landscape of Dataspace Connectors, the [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) offers a comprehensive documentation of all currently existing data connector implementations, providing valuable insights into their present state of development and usage.
 
-### 1.5 Relationship between Data Connector Report and IDS Deployment Scenarios**
+### 1.5 Relationship between Data Connector Report and IDS Deployment Scenarios
 
 The relationship between [Data Connector Report](https://internationaldataspaces.org/data-connector-report/) can be used as a reference and a starting point for IDS Deployment Scenarios. For example, if a deployment scenario requires a data connector, the report can be consulted to determine which data connector implementation to use based on its present state of development and usage. Similarly, the deployment scenario can provide valuable feedback on the usage of the data connector, helping to inform future updates and improvements to the Data Connector Report.
 
