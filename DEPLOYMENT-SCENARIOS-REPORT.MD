@@ -5,7 +5,8 @@
 ### 1.1 What is a Dataspace?
 
 A Dataspace is a secure and standardized digital infrastructure that enables trusted data exchange and data-based services among various stakeholders. In the IDS definition, a Dataspace is a virtual space that provides a standardized framework for data exchange, based on common protocols and formats, as well as secure and trusted data sharing mechanisms. The IDS Dataspace is designed to support data sovereignty, meaning that data owners retain control over their data and can determine who can use it and under what conditions. This is called Data Sovereignty.
-<<f
+
+
 The IDS Dataspace is intended to support a wide range of applications and industries. The Dataspace is designed to be interoperable with other Dataspaces, enabling seamless data exchange across different domains and industries. Overall, the IDS Dataspace is a flexible and scalable domain and technology-agnostic framework that enables secure and trusted data exchange and services, while preserving data sovereignty and privacy.
 
 ### 1.2 What are cool use cases and why do we need Dataspaces?
