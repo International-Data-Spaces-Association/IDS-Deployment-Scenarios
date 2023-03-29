@@ -1,6 +1,9 @@
 # IDS Testbed and Deployment Scenarios Report
 
-## 1. Introduction
+## 1. Introduction and Purpose
+The purpose of this document is to explain the complex and interrelated terms that are used in the world of IDS assets: such as MVDS, Data Space Radar, IDS Reference Testbed, IDS Basecamp, and Testbed. In this report, we aim to clarify these terms and their relationship to one another, as well as to provide an overview of what a deployment scenario is and how various IDS assets are positioned within the data space development journey.
+
+This report is an evolving document that will be updated and refined as new deployment scenarios and best practices emerge. As data sharing examples and best practices continue to grow in importance, it is vital that this report remains current and up-to-date with the latest developments. We will strive to ensure that this document remains a valuable resource for those working in the field of IDS deployment scenarios, and we welcome feedback and suggestions for improvements.
 
 ### 1.1 What is a Dataspace?
 
@@ -195,8 +198,4 @@ As the implementation of data spaces and related technologies continues to expan
 Additionally, maturity assessment criteria for a deployment scenario may become more apparent with the examination of additional examples. By studying how different scenarios have been implemented in different contexts, we can start to identify patterns and best practices that can be applied across a wide range of scenarios. This can help organizations to more effectively evaluate and implement data spaces in their own operations. And as we examine more deployment scenarios, we may begin to uncover new insights into the adaptability and reusability of different solutions. By looking at how different scenarios have been modified or reused across different organizations or industries, we can gain a better understanding of how data spaces can be adapted and scaled to meet the needs of different use cases. Overall, the examination of new deployment scenarios can help to drive innovation and growth in the field of data sharing, while also helping organizations to implement these technologies in a more effective manner.
 
 ## 5. Outlook and next steps
-With the continued growth and importance of data sharing examples and best practices, the need for trustworthy and secure data spaces is only increasing. 
-
-One of the key next steps for this document is to continue to update and refine it as new deployment scenarios and best practices emerge. With the continued growth and importance of data sharing examples and best practices, it will be important to ensure that this report stays up-to-date with the latest best practices. This could involve adding new chapters or sections to the document, or simply updating existing information to reflect these new developments.
-
-Another important next step for this document is to promote it widely within the data sharing community. By sharing this report with a wider audience, we can help to raise awareness of the importance of sharing great examples of IDS-compliant secure and sovereign data spaces, and encourage more organizations to share their best practices, which will be a driving factor in the evolution of dataspaces technology.
+With the continued growth and importance of data sharing examples and best practices, the need for trustworthy and secure data spaces is only increasing. Therefore, an important next step for this document is to promote it widely within the data sharing community. By sharing this report with a wider audience, we can help to raise awareness of the importance of sharing great examples of IDS-compliant secure and sovereign data spaces, and encourage more organizations to share their best practices, which will be a driving factor in the evolution of dataspaces technology.
