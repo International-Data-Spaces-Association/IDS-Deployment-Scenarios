@@ -1,7 +1,7 @@
 # IDS Deployment Scenarios
 This repository lists IDS Deployment Scenarios from various domains and cases. It serves as a library of information, listing different deployment alternatives applied by IDS projects. The ultimate aim is to create a source of inspiration and guidance for those who wish to experiment with data spaces or search for the best deployment practices. This repository also serves as a platform where everyone can express their opinions on the existing deployment scenarios by creating issues and initiating discussions around them.
 
-## List of Existing IDS Deployment Scenarios
+## List of existing IDS Deployment Scenarios
 
 | Name of the Deployment Scenario | Provider | Description | Used Components | 
 | -------- | -------- | -------- | -------- |
@@ -18,15 +18,15 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 - is built with a clear purpose, to solve a problem
 - is adequately documented to enable others to follow the same path
 
-### Example: 
+### Example 
 ![](images/IDS-Deployment-Scenarios-Patterns.png)
 As depicted on the image above, there are several ways to create a deployment scenario. As long as the implementation is made for a purpose and contains an IDS-compliant component, it can be considered as an IDS Deployment Scenario. 
 
 An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
 ![](images/creationprocess.png)
 
-### The Importance of Sharing Deployment Scenarios
-We are currently in the early stages of data spaces technology. Although the concept has been around for a few years, it is possible to say that it is still relatively new and underdeveloped. Data spaces offer a range of benefits, including improved collaboration, increased efficiency, and better decision-making. However, the technology is still evolving, and there are many challenges that need to be addressed, such as data privacy and security concerns, interoperability issues, and the need for standardized protocols. As a result, data spaces are still in the early-adoption phase, with only a minority exploring the technology's potential, and on the other hand, a vast majority looking for best practices.
+### The importance of sharing Deployment Scenarios
+We are currently in the early stages of data spaces technology. Although the concept has been around for a few years, it is possible to say that it is still relatively new and under continuous development. Data spaces offer a range of benefits, including improved collaboration, increased efficiency, and better decision-making. However, the technology is still evolving, and there are many challenges that need to be addressed, such as data privacy and security concerns, interoperability issues, and the need for standardized protocols. [IDS Rulebook](https://docs.internationaldataspaces.org/idsa-rulebook-v2/) provides great guidance here to help with these processes. As a result, data spaces are still in the early-adoption phase, with only a minority exploring the technology's potential, and on the other hand, a vast majority looking for best practices.
 
 In all technologies in this early-adoption phase, sharing experiments and deployment scenarios play a crucial role in the technology's evolution. The sharing of best practices and deployment scenarios is particularly important in the case of data spaces, as it is a complex and evolving technology. Sharing deployment scenarios can help others learn from your experiences and avoid common mistakes. It can also facilitate the creation of standards and best practices, which can help drive the adoption and development of data spaces. By sharing their experiences and best practices, early adopters can help build a strong and collaborative community of data space practitioners, which will be critical to the success of this emerging technology.
 
