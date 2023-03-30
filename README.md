@@ -25,12 +25,12 @@ As depicted on the image above, there are several ways to create a deployment sc
 An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below:
 ![](images/creationprocess.png)
 
-### The importance of sharing Deployment Scenarios
+### The importance of sharing deployment scenarios
 We are currently in the early stages of data spaces technology. Although the concept has been around for a few years, it is possible to say that it is still relatively new and under continuous development. Data spaces offer a range of benefits, including improved collaboration, increased efficiency, and better decision-making. However, the technology is still evolving, and there are many challenges that need to be addressed, such as data privacy and security concerns, interoperability issues, and the need for standardized protocols. [IDS Rulebook](https://docs.internationaldataspaces.org/idsa-rulebook-v2/) provides great guidance here to help with these processes. As a result, data spaces are still in the early-adoption phase, with only a minority exploring the technology's potential, and on the other hand, a vast majority looking for best practices.
 
 In all technologies in this early-adoption phase, sharing experiments and deployment scenarios play a crucial role in the technology's evolution. The sharing of best practices and deployment scenarios is particularly important in the case of data spaces, as it is a complex and evolving technology. Sharing deployment scenarios can help others learn from your experiences and avoid common mistakes. It can also facilitate the creation of standards and best practices, which can help drive the adoption and development of data spaces. By sharing their experiences and best practices, early adopters can help build a strong and collaborative community of data space practitioners, which will be critical to the success of this emerging technology.
 
-### Why Should I Share My Deployment Scenario with Others?  
+### Why should one share a deployment scenario with others?  
 Sharing your deployment scenario with others is an essential part of the open source philosophy, which is based on the idea that collaboration and sharing knowledge leads to better results. By sharing your deployment scenario, you allow others to learn from your experience and benefit from your insights, potentially saving them time and effort in their own deployment process.
 
 Sharing deployment scenarios with others can also have many advantages for the original implementor, including:
@@ -53,7 +53,7 @@ The maturity level of an IDS Deployment Scenario is currently not listed but as 
 
 Meanwhile, please feel free to check and comment on the [Maturity Assessment Criteria](Maturity-Assessment-Criteria.md) on this repository that suggests a methodology to assess the maturity of IDS Deployment Scenarios, in three levels: Sandbox, Incubated and Graduated. 
 
-## How can I share a deployment scenario?
+## How can i share a deployment scenario?
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways: 
 
 :triangular_flag_on_post: By sending a pull request via this repository (please be sure to check the [contribution guidelines](CONTRIBUTING.md)).
