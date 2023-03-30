@@ -46,6 +46,8 @@ Sharing deployment scenarios with others can also have many advantages for the o
 ### Relationship with Data Space Radar
 In the [Data Space Radar](https://internationaldataspaces.org/adopt/data-space-radar/), all solutions that reached the pilot and live stages can be considered as an IDS Deployment Scenario, since they involve the implementation of a data space solution to solve a specific business problem. 
 
+The deployment scenarios listed here are not necessarily attached to a particular use case in the Dataspace Radar. The relationship of IDS Deployment Scenarios with other assets of IDSA is explained in more detail in the [Deployment Scenarios Report](/DEPLOYMENT-SCENARIOS-REPORT.MD#23-ids-deployment-scenarios).
+
 ### How to assess the maturity level of a IDS Deployment Scenario?
 The maturity level of an IDS Deployment Scenario is currently not listed but as more IDS deployment scenarios are listed, we will have this activated. 
 
