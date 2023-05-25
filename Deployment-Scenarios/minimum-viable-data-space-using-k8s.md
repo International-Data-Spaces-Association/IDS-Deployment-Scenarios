@@ -172,7 +172,3 @@ This article was written by [Antonio Carlos Cob Parro](https://www.linkedin.com/
 A. Carlos Cob is Telecommunications engineer and software developer specialised in artificial intelligence and machine learning.
 
 Daniel Calvo is Telecommunications engineer with more than 10 years of experience working on research and innovation projects in the area of embedded systems, edge computing, Internet of Things (IoT) and Artificial Intelligence.
-
-
-
-'*'repository[IDS-testbed-k8s-folder]: We need to know where to push the manifests. I do not know if you would prefer to have the deployment in the IDS-TesteBed repository or another different repository. I wrote Sonia about that because we have prepared whole documentation about k8s deployment. Even so, we will be looking forward to hearing from you.
