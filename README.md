@@ -52,11 +52,6 @@ In the [Data Space Radar](https://internationaldataspaces.org/adopt/data-space-r
 
 The deployment scenarios listed here are not necessarily attached to a particular use case in the Dataspace Radar. The relationship of IDS Deployment Scenarios with other assets of IDSA is explained in more detail in the [Deployment Scenarios Report](DEPLOYMENT-SCENARIOS-REPORT.MD#23-ids-deployment-scenarios).
 
-### How to assess the maturity level of a IDS Deployment Scenario?
-
-The maturity level of an IDS Deployment Scenario is currently not listed but as more IDS deployment scenarios are listed, we will have this activated.
-
-Meanwhile, please feel free to check and comment on the [Maturity Assessment Criteria](broken-reference) on this repository that suggests a methodology to assess the maturity of IDS Deployment Scenarios, in three levels: Sandbox, Incubated and Graduated.
 
 ## How can i share a deployment scenario?
 
