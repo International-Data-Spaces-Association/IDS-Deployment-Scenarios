@@ -27,7 +27,9 @@ A deployment scenario can be considered as any implementation made with IDS-comp
 
 As depicted on the image above, there are several ways to create a deployment scenario. An IDS Deployment Scenario goes beyond just implementing solutions that comply with IDS. It's also about leveraging the latest tools and technologies like Artificial Intelligence (AI), Analytics, ETL tools, and more. The aim is to solve a problem comprehensively, not just through the use of IDS, but also by combining other tools and services. Therefore, it's crucial to address key questions such as how the integration was achieved, the challenges that were encountered, resolved and the benefits gained from incorporating additional tools and services. A successful deployment scenario must involve a holistic approach that leverages various technologies and tools to create a comprehensive solution that delivers optimal results.
 
-An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below: ![](images/IDSDeploymentScenarios-creationprocess.png)
+An envisaged flow for running an experiment with a IDS Deployment Scenario can be considered as depicted on the image below: 
+
+![](images/IDSDeploymentScenarios-creationprocess.png)
 
 ### The importance of sharing deployment scenarios
 
