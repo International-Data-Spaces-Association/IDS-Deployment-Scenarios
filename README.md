@@ -6,8 +6,8 @@ This repository lists IDS Deployment Scenarios from various domains and cases. I
 
 | Name of the Deployment Scenario                                          | Provider                                  | Description                                                             | Used Components        |
 | ------------------------------------------------------------------------ | ----------------------------------------- | ----------------------------------------------------------------------- | ---------------------- |
-| [Minimum Viable Data Space](broken-reference)                            | [TOP-IX](https://www.top-ix.org/it/home/) | An example deployment of Minimum Viable Data Space (as defined by IDSA) | CA, DAPS and Connector |
-| [IDS Testbed Deployment Using Kubernetes Architecture](broken-reference) | [ATOS](https://atos.net/es/spain)         | How to deploy an IDS-Testbed using Kubernetes                           | CA, DAPS and Connector |
+| [Minimum Viable Data Space](/Deployment-Scenarios/minimum-viable-data-space-top-ix.md)                            | [TOP-IX](https://www.top-ix.org/it/home/) | An example deployment of Minimum Viable Data Space (as defined by IDSA) | CA, DAPS and Connector |
+| [IDS Testbed Deployment Using Kubernetes Architecture](/Deployment-Scenarios/minimum-viable-data-space-using-k8s.md) | [ATOS](https://atos.net/es/spain)         | How to deploy an IDS-Testbed using Kubernetes                           | CA, DAPS and Connector |
 
 :rocket: [Minimum Viable Data Space](https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/minimum-viable-data-space/MVDS.md) is also included as a deployment scenario, defined by IDSA Head Office. It is also a great place to start creating a deployment scenario.
 
