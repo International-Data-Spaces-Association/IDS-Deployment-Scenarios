@@ -12,7 +12,6 @@ This repository lists IDS Deployment Scenarios from various domains and cases. I
 :rocket: [Minimum Viable Data Space](https://github.com/International-Data-Spaces-Association/IDS-testbed/blob/master/minimum-viable-data-space/MVDS.md) is also included as a deployment scenario, defined by IDSA Head Office. It is also a great place to start creating a deployment scenario.
 
 ## What is an IDS Deployment Scenario?
-
 An IDS deployment scenario is a description of the steps and processes involved in delivering a component or a set of components to end-users. It outlines the various stages of deployment, from development and testing to release and optionally maintenance. The scenario typically includes information on the prerequisites (such as hardware and software requirements), configuration settings, and any necessary third-party integrations. It also includes details on the deployment environment, such as whether it will be installed on-premises or in the cloud, and how the system will be monitored and supported once it is live. A deployment scenario helps ensure that the deployment process is consistent, easily repeatable, reusable and efficient, and that the system is deployed in a way that meets the needs of end-users.
 
 A deployment scenario can be considered as any implementation made with IDS-compliant components:
@@ -52,10 +51,10 @@ Sharing deployment scenarios with others can also have many advantages for the o
 
 In the [Data Space Radar](https://internationaldataspaces.org/adopt/data-space-radar/), all solutions that reached the pilot and live stages can be considered as an IDS Deployment Scenario, since they involve the implementation of a data space solution to solve a specific business problem.
 
-The deployment scenarios listed here are not necessarily attached to a particular use case in the Dataspace Radar. The relationship of IDS Deployment Scenarios with other assets of IDSA is explained in more detail in the [Deployment Scenarios Report](DEPLOYMENT-SCENARIOS-REPORT.MD#23-ids-deployment-scenarios).
+The deployment scenarios listed here are not necessarily attached to a particular use case in the Data Space Radar. The relationship of IDS Deployment Scenarios with other assets of IDSA is explained in more detail in the [Deployment Scenarios Report](DEPLOYMENT-SCENARIOS-REPORT.MD#23-ids-deployment-scenarios).
 
 
-## How can i share a deployment scenario?
+## How can I share a deployment scenario?
 
 You are warmly invited to contribute to the IDS Deployment Scenarios in two ways:
 
