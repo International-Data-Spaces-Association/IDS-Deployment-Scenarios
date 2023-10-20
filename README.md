@@ -75,3 +75,5 @@ We recommend that your deployment scenario to contain:
 * What **purpose** the entire deployment is made for? What problem it tries to solve? Please clearly define the **purpose of the deployment scenario**, including the intended use case and expected outcomes.
 * **Deployment Process** Describe the deployment process, including any installation, configuration, or testing procedures.
 * Any **other resources** that might be helpful for a third party to reproduce the scenario.
+
+Couldn't find the information you were looking for? Please proceed to our [FAQ page](FAQ.md), where we delve deeper into more specific questions and provide detailed answers to assist with more complex scenarios around IDS Deployment Scenarios.
