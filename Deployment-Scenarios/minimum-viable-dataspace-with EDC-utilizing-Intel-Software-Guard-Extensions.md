@@ -498,7 +498,7 @@ In the interest of expediency and confirming basic functionality.,the EDC MVD SG
 As far as the EDC MVD itself, it may be beneficial if the MVD and DataDashboard had specific tags associated with the EDC releases. This should trying using more recent versions of the MVD that are stable and do not depend on the EDC latest committed changes.
 
 ### CREDITS
-This article was written by [Markus Leberecht](httpswww.linkedin.com/in/dr-markus-leberecht-7b4374) of [Intel Corporation](https://www.intel.com) and [Sergiu Stejar](https://www.linkedin.com/in/sstejar/) of [IONOS SE](https://www.ionos.com). 
+This article was written by [Markus Leberecht](https://www.linkedin.com/in/dr-markus-leberecht-7b4374) of [Intel Corporation](https://www.intel.com) and [Sergiu Stejar](https://www.linkedin.com/in/sstejar/) of [IONOS SE](https://www.ionos.com). 
 
 Markus Leberecht is a solution architect interested in security solutions and their hardware support. 
 
