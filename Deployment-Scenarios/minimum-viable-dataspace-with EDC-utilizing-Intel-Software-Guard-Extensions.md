@@ -500,6 +500,6 @@ As far as the EDC MVD itself, it may be beneficial if the MVD and DataDashboard 
 ### CREDITS
 This article was written by [Markus Leberecht](https://www.linkedin.com/in/dr-markus-leberecht-7b4374) of [Intel Corporation](https://www.intel.com) and [Sergiu Stejar](https://www.linkedin.com/in/sstejar/) of [IONOS SE](https://www.ionos.com). 
 
-Markus Leberecht is a solution architect interested in security solutions and their hardware support. 
+Markus Leberecht is a Solution Architect interested in security solutions and their hardware support. 
 
 Sergiu Stejar is a Software Architect at IONOS Cloud. 
