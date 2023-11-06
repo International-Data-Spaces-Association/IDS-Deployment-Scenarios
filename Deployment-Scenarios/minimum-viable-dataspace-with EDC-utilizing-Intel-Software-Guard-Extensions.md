@@ -1,4 +1,4 @@
-# A Minimal Viable Dataspace with Eclipse Dataspace Components utilizing Intel Software Guard Extensions
+# A Minimum Viable Dataspace with Eclipse Dataspace Components utilizing Intel Software Guard Extensions
 
 
 ## Abstract
@@ -210,7 +210,7 @@ and
 
 `$MANIFEST_FILE` is described below.
 
-The manifest file referred above instructs GSC in setting up the GSC wrapped image. The information tells GSC about the specifics to be taken into account when running the base image.
+The manifest file referred to above instructs GSC in setting up the GSC wrapped image. The information tells GSC about the specifics to be taken into account when running the base image.
 
 Here is an annotated version of the configuration that was used to run EDC MVD in GSC mode:
 ```
